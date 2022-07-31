@@ -1,0 +1,1 @@
+plot(bar),color(Creative_Type),mean(Production_Budget),field(Production_Budget),x(Creative_Type),column(Content_Rating),y(Production_Budget),field(Content_Rating),field(Creative_Type)

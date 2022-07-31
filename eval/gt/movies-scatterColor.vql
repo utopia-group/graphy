@@ -1,0 +1,1 @@
+VISUALIZE SCATTER SELECT movies.Production_Budget, movies.Worldwide_Gross FROM movies GROUP BY movies.Major_Genres

@@ -1,0 +1,1 @@
+x(Country),field(Profit),plot(bar),y(Profit),field(Country),mean(Profit)

@@ -1,0 +1,1 @@
+VISUALIZE LINE SELECT superstore.Order_Date, SUM(superstore.Sales) FROM superstore GROUP BY superstore.Category

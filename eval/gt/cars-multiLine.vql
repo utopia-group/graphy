@@ -1,0 +1,1 @@
+VISUALIZE line SELECT cars.Year, avg(cars.Horsepower) FROM cars GROUP BY cars.Origin ORDER BY cars.Year ASC

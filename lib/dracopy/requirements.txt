@@ -1,0 +1,12 @@
+ansunit
+black
+flask===1.1.1
+flask-cors
+pandas==0.25.3
+clyngor-with-clingo
+jsonschema
+mypy
+pytest
+pytest-cov
+scipy
+

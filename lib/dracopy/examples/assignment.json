@@ -1,0 +1,11 @@
+{
+    "data": {
+        "url": "data/census2000.csv"
+    },
+    "encodings": [
+        {"field": "sex", "type": "nominal"},
+        {"field": "year", "type": "ordinal"},
+        {"field": "age", "type": "ordinal"},
+        {"field": "people"}
+    ]
+}

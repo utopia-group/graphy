@@ -1,0 +1,1 @@
+VISUALIZE bar SELECT cars.Cylinders, avg(cars.MPG) from cars GROUP BY cars.Cylinders

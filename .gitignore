@@ -1,0 +1,55 @@
+# overall ignore
+.git
+.vscode
+.idea
+.cache
+.ipynb_checkpoints
+**/__pycache__
+**/__tmp__
+**/*.DS_Store
+**/*.ipynb_checkpoints
+**/*checkpoint.ipynb
+jars/*
+#model/*
+**/*.out
+**/*.pyc
+**/draco2
+
+# dataset
+#**/*.pkl
+**/*_held_out.txt
+
+# data_analysis
+**/*_analysis.csv
+csv_files/*_res*.csv
+eval_output/*_res_prev.csv
+
+# nl2sql_ignore
+lib/nlp/TabularSemanticParsing/data/
+lib/nlp/TabularSemanticParsing/model/
+lib/nlp/TabularSemanticParsing/wandb/
+wandb
+*.tar*
+
+
+# draco_ignore
+**/*.lock
+**/*.cache
+**/*.coverage
+**/*.eggs
+**/*.ipynb_checkpoints
+**/*.mypy_cache
+**/*.pytest_cache
+**/*.vscode
+**/*.css
+**/*.db
+*.egg-info
+**/__init__.pyc
+**/dist
+**/experiments
+**/ILASP
+**/node_modules
+**/package-lock.json
+**/test*.lp
+**/yarn-error.log
+**/build/

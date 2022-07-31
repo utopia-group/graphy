@@ -1,0 +1,26 @@
+{
+		"$schema": "https://vega.github.io/schema/vega-lite/v3.json",
+		"data": {
+			"url": "datasets/movies.csv"
+		},
+		"mark": {
+			"type": "bar",
+			"tooltip": null
+		},
+		"encoding": {
+			"x": {
+				"field": "Major_Genre",
+				"type": "nominal"
+			},
+			"y": {
+				"aggregate": "mean",
+				"field": "Worldwide_Gross",
+				"type": "quantitative",
+				"axis": {
+					"title": "AVG (Worldwide_Gross)",
+					"format": "~s"
+				}
+			}
+		},
+		"ignore_orientation": true
+	}

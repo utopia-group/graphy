@@ -1,0 +1,20 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "mark": {"type": "area", "tooltip": true},
+    "encoding": {
+      "x": {"field": "Release_Year", "type": "temporal", "aggregate": null},
+      "y": {"field": "Release_Year", "type": "temporal", "aggregate": "count"}
+    },
+    "transform": [
+      {
+        "filter": {
+          "field": "Genre",
+          "oneOf": ["Black Comedy", "Romantic Comedy", "Comedy"]
+        }
+      }
+    ],
+    "data": {
+      "url": "https://raw.githubusercontent.com/nl4dv/nl4dv/master/examples/assets/data/movies-w-year.csv",
+      "format": {"type": "csv"}
+    }
+  }

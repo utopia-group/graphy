@@ -1,0 +1,1 @@
+plot(bar),field(Sub-Category),y(Sub-Category),x(Sub-Category),count(Sub-Category)

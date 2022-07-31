@@ -1,0 +1,1 @@
+plot(line),mean(MPG),x(Year),color(Origin),field(Year),field(MPG),field(Origin),y(MPG)

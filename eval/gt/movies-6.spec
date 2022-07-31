@@ -1,0 +1,1 @@
+theta(Production_Budget),sum(Production_Budget),color(Genre),field(Genre),field(Production_Budget),plot(arc)

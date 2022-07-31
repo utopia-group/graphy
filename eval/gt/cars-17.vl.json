@@ -1,0 +1,25 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "mark": {"type": "point", "tooltip": true},
+    "encoding": {
+      "x": {
+        "field": "Horsepower",
+        "type": "quantitative",
+        "aggregate": null,
+        "axis": {"format": "s"}
+      },
+      "y": {
+        "field": "Acceleration",
+        "type": "quantitative",
+        "aggregate": null,
+        "axis": {"format": "s"}
+      },
+      "color": {"field": "Origin", "type": "nominal", "aggregate": null},
+      "tooltip": {"field": "Model"}
+    },
+    "transform": [],
+    "data": {
+      "url": "https://raw.githubusercontent.com/nl4dv/nl4dv/master/examples/assets/data/cars-w-year.csv",
+      "format": {"type": "csv"}
+    }
+  }

@@ -1,0 +1,669 @@
+id,data,query,fields,plot,color,column,count,mean,sum,plot-field,color-field,column-field,count-field,mean-field,sum-field,x-field,y-field
+162,Cars,"scatter plot weight by acceleration for individual models, small multiples by origin","['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+235,Cars,"Scatter plot, x-axis weight, y-axis acceleration, facet by origin","['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+270,Cars,"For each cylinders, average acceleration Color by origin","['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+329,Cars,"Group by Origin | Faceting on Cylinder, plot Cylinder by AVG Acceleration","['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+157,Cars,"how does displacement relate to mpg for individual models, partitioned by country","['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+486,Movies,Plot the total worldwide gross over time for each major genre.,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+612,Movies,production budget by gross for movies per genre,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+131,Cars,Which cylinder cars have the highest fuel economy?,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+74,movies,Scatter plot of Rotten Tomatoes Rating by IMDB Rating,"['Rotten_Tomatoes_Rating', 'IMDB_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+255,Cars,how mpg varies for different cylinder type,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+373,Cars,show me the distribution of car weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+234,Cars,"Bar chart, x-axis cylinders, y-axis mean MPG","['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+147,Cars,What is the correlation between displacement and MPG of cars with different origins?,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+695,Movies,show me a line plot of sum of gross revenue for each genre over time,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+203,Cars,Show the relationship between number of cars and cylinders in each country,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+153,Cars,Please show me multiple correlation charts of weights and accelerations of cars based on their origins.,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+388,Cars,Scatter plot of displacement versus mpg. Color by origin.,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+641,Movies,average production budget over time,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+241,Cars,plot horsepower by acceleration,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+665,Movies,"Stacked bar chart of gross for each content rating, by major genre","['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+350,Cars,Show me Average MPG per Cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+90,movies,show me average production budget over release year,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+181,Cars,bar chart of count of models by origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+274,Cars,Histogram by weight | Count of binned weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+209,Cars,Show number of cars from each country,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+5,movies,visualize the distribution of budget as a histogram,"['Production_Budget', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+289,Cars,plot average weight across time,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+599,Movies,What was the average worldwide gross of movies by genre?,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+176,Cars,bar chart of average mpg by cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+520,Movies,plot average production budget over release year,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+505,Movies,"Histogram of running time, in 20 minute bands","['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+225,Cars,Visualize distribution of MPG versus displacement across origin,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+455,Movies,scatter IMDB Rating versus Rotten Tomatoes Rating,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+506,Movies,Scatter plot of Worldwide Gross by Production Budget with different colors by major genre,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+354,Cars,Show me MPG versus Displacement distinguished by Origin,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+2,movies,show me the budget and gross for adventure movies released since 2000/1/1 as a scatter plot,"['Worldwide_Gross', 'Production_Budget', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+492,Movies,What is the relationship between production budget and worldwide gross for each major genre?,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+219,Cars,Bar graph to show number of cars from different Origins,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+226,Cars,Visualize the general trend of car model weights over the years,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+356,Cars,"Show me count of models grouped by cylinders, stacked by Origin","['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+244,Cars,plot origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+408,Cars,chart count to country,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+697,Movies,show me a scatter plot of rotten tomatoes ratings versus imdb ratings,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+296,Cars,Scatter plot of horsepower across acceleration,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+443,Movies,histogram for creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+440,Movies,give me a scatter plot of imdb rating as x-axis and rotten tomatoes rating as y-axis,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+245,Cars,plot cylinder histogram | stack by origin,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+357,Cars,"Show me a histogram of weight, rounded to 500","['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+469,Movies,Make simple scatter plots of the Worldwide Gross versus Production Budget. Parameterize by Content Rating.,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+524,Movies,plot IMDB rating against rotten tomatoes rating,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+168,Cars,average weight over time,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+614,Movies,Show me how many movies were made by creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+426,Cars,"For each region, how does a car's MPG vary with displacement?","['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+539,Movies,what is the worldwide gross distribution per genre,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+227,Cars,Visualize the distribution of models by weight into 8 buckets,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+186,Cars,How many cylinders do cars manufactured in different countries have?,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+456,Movies,Average Worldwide Gross by Major Genre,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+9,movies,average production budget of different movie types over the years as a line chart,"['Creative_Type', 'Production_Budget', 'Release_Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+183,Cars,vertical bar chart of number of models by origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+566,Movies,Sort creative types by number of movies,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+546,Movies,gross across genres,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+437,Movies,show me average budget split by content rating colored by creative type,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+39,cars,visualize origin and cylinders as a bar chart,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+58,cars,"create a stacked bar chart of the count of models by cylinder, group by origin","['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+585,Movies,histogram of running time,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+513,Movies,Bar chart of average worldwide gross by major genre,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+657,Movies,running time distribution,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+222,Cars,Trend for average horsepower over time across different origin,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+500,Movies,What is the total worldwide gross for each major genre across time?,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+132,Cars,Acceleration by weight scatter plot per origin,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+264,Cars,count of cars by origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+91,movies,plot average production budget over release year,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+135,Cars,Which countries have the most cars in this dataset?,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+163,Cars,how does horsepower relate to acceleration for individual car models,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+232,Cars,"Scatter plot, x-axis horsepower, y-axis acceleration","['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+49,cars,Plot count of models by grouped by origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+701,Movies,"show me a histogram of the count of each creative type, sorted in descending number of releases.","['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+574,Movies,Total gross by year and genre,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+317,Cars,average weight by year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+239,Cars,plot displacement by mpg | color by origin,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+197,Cars,How does mileage relate to cylinder count?,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+551,Movies,Give me a stacked column chart of worldwide gross by genre and rating,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+220,Cars,Visualize average acceleration based on number of cylinders a model has summed across different origins,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+606,Movies,Create column graph of worldwide gross by major genre for all movies,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+269,Cars,"For each cylinders, average acceleration per origin","['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+352,Cars,Show me Acceleration versus Weight broken out by Origin,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+572,Movies,Average worldwide gross by genre,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+643,Movies,what's the distribution of running times by movie,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+662,Movies,line graph of worldwide gross for each genre for each year starting in 1995 to present,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+409,Cars,scatter plot acceleration versus horsepower,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+608,Movies,gross per genre over time,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+154,Cars,Please show me a bar chart with the x-axis representing the number of cylinders and the y-axis depicting the average MPG.,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+292,Cars,Show distribution by counties,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+439,Movies,show me imdb rating versus rotten tomatoes rating,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+451,Movies,show me movies by creative types,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+548,Movies,how does Rotten Tomatoes Rating change as IMDB Rating?,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+463,Movies,Avg(Poduction Budget) Grouped by Content Rating and sub-grouped by Creative Type,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+272,Cars,Average weight over year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+660,Movies,Gross versus major genre,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+166,Cars,"average horsepower over time, colored by origin","['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+198,Cars,bar chart for mpg versus cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+550,Movies,Total worldwide gross by genre and content rating,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+189,Cars,Compare acceleration versus weight across different countries,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+275,Cars,"scatter(displacement, MPG) | color by Origin","['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+671,Movies,Relationship of Rotten Tomatoes rating to IMDB rating.,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+367,Cars,create a bar chart showing the average MPG grouped by cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+483,Movies,Plot the total worldwide gross for each major genre using a stacked bar chart. Break down within each genre by content rating.,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+391,Cars,Line graph of year versus average weight,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+12,cars,Visualize mpg,"['MPG', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+273,Cars,Line chart average weight over year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+618,Movies,"plot all titles on a scatter plot chart by production budget an worldwide gross, and color the dots by major genre","['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+271,Cars,Have cars gotten lighter over time?,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+681,Movies,Total Worldwide Gross by Major Genre with Content Rating labels,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+284,Cars,show me acceleration by weight and by country of origin,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+139,Cars,Show me weight over year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+442,Movies,show me a scatter plot | show me rating | show me rotten tomatoes rating,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+604,Movies,Create histogram of running time,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+692,Movies,"show me how each rating, broken down by creative type, affects the average production budget","['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+693,Movies,show me a histogram of movie length,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+418,Cars,Histogram with cylinders on x-axis and bar colored by country,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+419,Cars,Distribution of country,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+212,Cars,Bar graph to show number of cylinders on x-axis and Average MPG on y-axis,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+627,Movies,"production budget versus worldwide gross for each movie, trellised by content rating","['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+159,Cars,"average acceleration by origin, with small multiples by cylinders","['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+155,Cars,Please show me how the average weights change in a timeline.,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+619,Movies,show me the average production budget by release year in a line chart,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+398,Cars,Acceleration distribution by Weight and Origin,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+445,Movies,plot average worldwide growth over major genre,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+63,cars,Plot Year by AVG Weight,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+195,Cars,What's the mileage for cars based on the number of cylinders present?,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+393,Cars,Count Rows by Origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+19,cars,Create a chart showing mpg across origin over years,"['Origin', 'MPG', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+487,Movies,Plot the average production budget each year across all movies.,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+436,Movies,give me line charts of worldwide gross over year by major genres,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+138,Cars,Which countries have the highest acceleration for cars of different cylinders?,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+488,Movies,Plot a histogram of movie running time.,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+613,Movies,Show me the total worldwide gross over time by release year for the major genres,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+338,Cars,"total number of models based on number of cylinders, with breakdown by country","['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+348,Cars,Show Me Acceleration versus Horsepower For each Model,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+479,Movies,Show how worldwide grosses are related to production budgets by genre.,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+179,Cars,count of models by origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+178,Cars,number of models by origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+211,Cars,Scatter plot to show horsepower on x-axis and Acceleration on y-axis,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+633,Movies,scatter of imdb rating by rotten tomatoes rating,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+233,Cars,"Scatter plot, x-axis Displacement, y-axis MPG, Color by Origin","['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+555,Movies,How much money did movies of each genre and rating make?,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+664,Movies,how many films of each creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+381,Cars,Compare AVG ( MPG ) with Cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+441,Movies,plot worldwide gross over release year split by genre,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+133,Cars,Acceleration by weight scatter plot facet by origin,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+22,soccer,show me players with salaries more than 60M,"['Salary', 'Name', 'null']",1,1,1,1,1,1,2,2,2,2,2,2,0,1
+254,Cars,show mpg for each cylinder type,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+323,Cars,Group by Origin | plot Year by AVG Horsepower,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+465,Movies,Make a simple bar chart of count of Titles versus the Running Time. | Extend axes to labels and use only Count or lateral gridlines.,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+330,Cars,Average MPG based on cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+684,Movies,Average Production Budget by Creative Type separated by Content Rating,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+458,Movies,Average Production Budget by Year,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+54,cars,"plot displacement by mpg, color by origin","['Origin', 'MPG', 'Displacement', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+223,Cars,Visualize distribution of models by number of cylinders grouped by origin,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+565,Movies,Which creative types have the most movies?,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+321,Cars,cylinders by acceleration,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+36,cars,show a line chart of horsepower over the years,"['Horsepower', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+637,Movies,average production budget by creative type and content rating,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+137,Cars,Acceleration by horsepower points,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+570,Movies,Give me a scatter plot of budget versus gross broken down by movie but with genre as a legend,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+668,Movies,"Production budget for each creative type, by content rating","['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+607,Movies,Create stacked column graph of worldwide gross by major genre by content rating,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+184,Cars,"Compare the number of models in USA, Japan and Europe ?","['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+467,Movies,"make a simple, vertical bar chart of the average of Worldwide sales as a function of the Major Genre.  | Alphabetize the Major Genre, use the color Blue for the bars and extend the grids to the labels only outside the chart.   | Make horizontal gridlines for the Average.","['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+310,Cars,Plot Count versus Origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+283,Cars,show me MPG by displacement and origin in scatter chart,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+64,cars,"Coloring by Origin, Plot Displacement by MPG","['Origin', 'MPG', 'Displacement', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+460,Movies,Scatter Production Budget versus Worldwide Gross. Color Code Major Genre.,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+52,cars,Bar graph to show number of cars from different Origins,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+86,movies,how many films of each creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+182,Cars,vertical bar chart of count of models by origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+402,Cars,chart average weight over time,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+435,Movies,what's the production budget for movies in different years?,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+349,Cars,Show cylinders and AVG ( MPG ) in a bar chart,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+267,Cars,Show me small multiples of acceleration by weight for each country.,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+140,Cars,show me horsepower versus acceleration,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+80,movies,Plot IMDB rating against Rotten Tomatoes rating.,"['Rotten_Tomatoes_Rating', 'IMDB_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+51,cars,Visualize average acceleration based on number of cylinders a model has summed across different origins,"['Origin', 'Acceleration', 'Cylinders', 'null']",1,0,1,1,0,1,3,0,3,3,1,3,2,1
+346,Cars,Show me Average Acceleration grouped by cylinders and broken out by Origin,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+72,movies,Line graph of average Production Budget across Release Year,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+464,Movies,plot a simple line chart that Sums the Worldwide Gross of major films versus release year parameterized by Major Genre. | Do not use symbols and show only major gridlines. Extend the axis to the labels.,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+160,Cars,"bars of avg acceleration, colored by origin, with small multiples by cylinders","['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+299,Cars,Show histogram of weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+312,Cars,Plot Count ( cars ) versus Origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+438,Movies,Movie gross and budget relationship based on genre,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+523,Movies,Show worldwide gross timeline by movie genre,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+161,Cars,"how does weight relate to acceleration for car models, small multiples by origin","['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+144,Cars,show me how weight is related to acceleration per country,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+508,Movies,"Average production budget by Creative Type, with separate graphs by Content Rating","['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+507,Movies,Line graph of average Production Budget across Release Year,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+499,Movies,Which creative type had the fewest movies?,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+650,Movies,Create column graph of all movies by creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+171,Cars,"histogram of weight, bin size 500","['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+533,Movies,"What's the average production budget of the different rated movies, separated by creative type.","['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+167,Cars,average weight over year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+173,Cars,"stacked bar of count of models by cylinders, colored by origin","['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+444,Movies,give me scatter plot of worldwide gross versus production budget by different content ratings,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+303,Cars,Plot the average of MPG versus Cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+308,Cars,"Draw axes for AVG ( Horsepower ) versus Year, colored by Origin","['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+406,Cars,show a stacked bar chart of number of vehicles to number for cylinders grouped by country,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+680,Movies,Total Worldwide Gross by Major Genre separated by Content Rating,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+630,Movies,show the spread of production budget and worldwide gross for each movie with genre as a legend,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+514,Movies,stacked bar of genre and worldwide gross colored by content rating,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+552,Movies,"For each genre and rating, what is the total worldwide gross earnings?","['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+298,Cars,Show distribution of weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+450,Movies,Plot IMDB rating against Rotten Tomatoes rating.,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+669,Movies,"average production budget by year, 1995 to 2009","['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+44,cars,Bar chart of cylinders versus average mpg,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+75,movies,"Bar chart of total worldwide gross by major genre, by content rating","['Content_Rating', 'Worldwide_Gross', 'Genre', 'null']",1,0,0,1,1,0,3,0,0,3,3,1,2,1
+640,Movies,average production budget by year,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+151,Cars,Please show me the distribution of weights by 500 interval.,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+547,Movies,average length of movies,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+3,movies,what was the total gross of the Harry Potter franchise as a bar chart?,"['Worldwide_Gross', 'Title', 'null']",1,1,1,1,1,0,2,2,2,2,2,0,1,0
+278,Cars,show me the average weight in a line chart,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+280,Cars,show me the count of cars by country of origin in bar chart,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+446,Movies,"Show the total worldwide gross by category of film, broken down by movie rating.","['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+332,Cars,Histogram of number of cars by weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+32,cars,create a histogram of mpg,"['MPG', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+315,Cars,Draw the axes for AVG ( Weight ) versus Year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+66,cars,"Bar chart, x-axis cylinders, y-axis mean MPG","['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+475,Movies,Show how genres have been associated with worldwide grosses from 1995 to 2009.,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+343,Cars,Show Horsepower by Acceleration in a XYplot,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+493,Movies,What is the relationship between release year and average production budget?,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+359,Cars,acceleration versus horsepower,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+544,Movies,production budget across years,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+205,Cars,Show a bar chart showing weight distribution of cars,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+489,Movies,Plot rotten tomatoes rating v.s. IMDB rating on a scatter plot.,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+582,Movies,Count movies by how long they are to the nearest 20 minutes,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+471,Movies,Make a simple scatter plot of Rotten Tomatoes Rating versus IMDB Rating.   | Use only major gridlines.,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+686,Movies,show me a line plot of average movie production budget over time for all movies,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+353,Cars,Show me MPG versus Displacement colored by Origin,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+300,Cars,"Show average horsepower across cylinders, each country shown separately","['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+584,Movies,Show the total gross across genres over time,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+390,Cars,Bar chart of average acceleration for cars with each number of cylinders in each place of origin. Color by origin. Separate into multiple charts by number of cylinders.,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+202,Cars,Through a visualization show average horsepower of cars for each country from 1997 to 2011,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+355,Cars,"Show me the Average Horsepower per origin, trended by ascending years","['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+602,Movies,Display column graph of average production budget by creative type broken down by content rating,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+318,Cars,count by cylinders and origin,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+674,Movies,Worldwide Gross relationship to Production Budget filtered by Content Rating,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+68,movies,plot worldwide gross over release year split by genre,"['Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+123,Cars,Cylinders count bar chart Color by origin,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+374,Cars,show me a distribution of cylinders grouped by car origin,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+541,Movies,budget over time,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+218,Cars,Line chart showing Year on x-axis and Average Horsepower on y-axis. Different lines for different Origin,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+314,Cars,Draw the axes for the average of Weight versus Year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+586,Movies,bar chart of AVG worldwide gross for movies in each genre,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+517,Movies,Display budget by gross of movies broken down by content rating,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+93,movies,stacked bar of genre and worldwide gross colored by content rating,"['Content_Rating', 'Worldwide_Gross', 'Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+610,Movies,IMDB rating by rotten tomatoes rating,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+69,movies,gross across genres regarding content rating,"['Content_Rating', 'Worldwide_Gross', 'Genre', 'null']",1,0,0,1,0,1,3,0,0,3,1,3,2,1
+260,Cars,how is acceleration related to horsepower,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+676,Movies,Worldwide Gross through time for each Major Genre,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+457,Movies,histogram of Running Time,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+587,Movies,bar chart of number of movies in each creative category,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+598,Movies,Give me a histogram of running time for movies,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+411,Cars,How does acceleration vary by weight for cars from different regions?,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+324,Cars,"Faceting on Origin, plot Weight by Acceleration","['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+43,cars,Scatter plot of displacement versus mpg. Color by origin.,"['Origin', 'MPG', 'Displacement', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+448,Movies,scatter plot budget and worldwide gross colored by genre,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+174,Cars,"stacked bar of number of models by cylinders, colored by origin","['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+634,Movies,imdb rating versus rotten tomatoes rating by movie,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+415,Cars,Histogram of car weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+560,Movies,Give me a line chart of average budget by year,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+40,cars,visualize origin and cylinders as a scatter plot,"['Origin', 'Cylinders', 'null']",0,0,1,0,1,1,2,0,2,1,2,2,1,1
+521,Movies,show me average production budget over release year,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+399,Cars,Average Horsepower per year and origin,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+130,Cars,How does displacement relate to fuel economy for cars from Europe versus USA?,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+591,Movies,"Stacked bar chart of total worldwide gross for each genre, separated by rating","['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+306,Cars,"Plot the Count of cars versus Cylinders, colored by Origin, stacked by Origin","['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+311,Cars,Plot ROWCOUNT versus Origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+362,Cars,"create a scatter plot of mpg versus displacement by model, color marks by origin | set origin colors to: europe, blue, japan, orange, usa, red","['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+95,movies,what's the production budget for movies in different years?,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+534,Movies,Stack bar chart of SUM(worldwide gross) versus movie genre based on content rating,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+200,Cars,Show the scatter plot between horse power and acceleration,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+691,Movies,show me small multiples of average production budget for each creative type across different ratings,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+302,Cars,Plot acceleration versus Horsepower,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+146,Cars,The distribution of the number of cylinders of cars based on different origins.,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+326,Cars,"Coloring by Origin, Plot Displacement by MPG","['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+384,Cars,Line graph of year versus average horsepower by origin,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+136,Cars,Acceleration by horsepower scatter plot,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+371,Cars,create a histogram of model count by weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+28,soccer,show me salaries of left footed players who play as a forward.,"['Name', 'Salary', 'null']",1,1,1,1,1,1,2,2,2,2,2,2,0,1
+79,movies,What was the average production budget of movies by year?,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+41,cars,Bar chart of number of cars from each origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+236,Cars,"Bar chart, x-axis origin, y-axis count of rows","['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+412,Cars,What is the average MPG for cars with different cylinders?,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+616,Movies,Show me a scatter plot of movies by imdb rating and rotten tomatoes rating,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+389,Cars,Scatter plot of weight versus acceleration. Break into multiple scatter plot by origin,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+617,Movies,Show me the total worldwide gross for all major genres in a stacked bar chart and color it out by content rating,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+221,Cars,Visualize acceleration versus weight across distribution across different origins,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+320,Cars,horsepower by acceleration,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+484,Movies,Plot the average worldwide gross for each major genre. Sort alphabetically.,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+243,Cars,"plot separately cylinders by average acceleration, color by origin","['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+295,Cars,Show distribution of cylinders by country,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+385,Cars,Bar chart of number of cylinders. Stack bar charts by origin,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+635,Movies,worldwide gross by major genre and content rating,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+16,cars,Displacement Cylinders Acceleration,"['Acceleration', 'Cylinders', 'Displacement', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+485,Movies,"Plot the worldwide gross v.s. production budget on a scatter plot, broken down by content rating.","['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+73,movies,"Line graph of total Worldwide Gross by Major Genre, across Release Year","['Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+453,Movies,show me bars | show me major genre | show me average of worldwide gross,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+59,cars,create a line graph of average horsepower by year grouped by origin,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+23,soccer,which player from France has scored the highest goals,"['Name', 'Goals', 'null']",1,1,1,1,1,1,2,2,2,2,2,2,0,1
+85,movies,Rating of movies in IMDB and Rotten Tomatoes,"['Rotten_Tomatoes_Rating', 'IMDB_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+266,Cars,show cars produced by different origin in various cylinders,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+476,Movies,Show how films' Rotten Tomatoes ratings compare with IMDB ratings.,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+11,cars,Origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+397,Cars,Avg weight by Year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+50,cars,Visualize distribution of models by number of cylinders grouped by origin,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+540,Movies,what's the breakdown of production budget by creative type per content rating?,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+396,Cars,"Count by Cylinders and Origin, Stacked","['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+185,Cars,Does higher horsepower mean lower acceleration?,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+46,cars,Graph to show the acceleration for cars from different countries segregated based on number of cylinders,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+279,Cars,show me average acceleration based on cylinders and country of origin,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+82,movies,plot average worldwide growth over major genre,"['Worldwide_Gross', 'Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+293,Cars,Plot average horsepower across time by countries,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+588,Movies,line chart of AVG production budget of each release year,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+382,Cars,How does AVG ( Weight ) evolve over the years?,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+636,Movies,total worldwide gross by genre and rating,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+18,cars,Visualize car weight and number of cylinders over the years,"['Cylinders', 'Weight', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+55,cars,Bar graph to show number of cylinders on x-axis and Average MPG on y-axis,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+216,Cars,"3 scatter plots, one each for every Europe, Japan, and USA, to show weight on x-axis and Acceleration on y-axis","['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+615,Movies,How much did major genres gross in total,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+1,movies,show me a scatter plot of budget and gross for romantic comedy movies released between 1990 and 2000,"['Worldwide_Gross', 'Production_Budget', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+10,movies,show movies whose production budget equals 200M as a bar chart,"['Title', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+420,Cars,Average acceleration by cylinders and country of origin in separate panels,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+424,Cars,How many cars are from each region?,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+217,Cars,One scatter plot to show displacement on x-axis and MPG on y-axis | Scatter points to be different for each change in value of field Origin,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+666,Movies,"Cumulative gross for each content rating, by major genre","['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+214,Cars,Stacked bar chart to show number of cylinders on x-axis and count of cars  segregated country wise on y-axis,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+700,Movies,show me a bar plot where the x-axis is movie genre and the y-axis is average worldwide revenue,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+563,Movies,Give me a scatter plot showing a comparison of ratings between imdb and rotten tomatoes,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+17,cars,Show me acceleration and horsepower across origins,"['Origin', 'Horsepower', 'Acceleration', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+383,Cars,Scatter plot of horsepower versus acceleration,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+526,Movies,Show a count of movies binned by running time in 20-minute increments.,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+470,Movies,Make vertical bar charts of the average of the Production Budget categorized by Creative Type and parameterized by Content Rating across the page. | Put an alphabetized legend for Creative type on the right side of the page. Do not use an x-axis or category-axis but use the same axis for each chart. Use only major average of Production Budget gridlines.,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+625,Movies,counts of movies by creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+645,Movies,worldwide gross over time by genre,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+190,Cars,Show distribution of cars by weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+149,Cars,what is the correlation between horsepower and acceleration?,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+647,Movies,how many movies are there for each creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+678,Movies,Total Count based on Running Time,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+462,Movies,time series: Sum(Worldwide Gross) by Release Year | group and color code by Major Genre,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+364,Cars,What is the distribution of weight across all cars?,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+297,Cars,Plot weight across acceleration for each country separately,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+434,Movies,histogram of running time,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+628,Movies,"scatter charts for each content rating, showing production budget and worldwide gross for each movie","['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+597,Movies,Show me a boring bar chart of movie running time and count,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+629,Movies,production budget versus worldwide gross by movie and major genre,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+188,Cars,Weight of cars grouped by year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+128,Cars,Count by origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+561,Movies,Compare imdb rating to rotten tomatoes rating,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+177,Cars,vertical bar chart of average mpg by cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+387,Cars,Bar chart of cylinders versus average mpg,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+175,Cars,"vertical stacked bar of number of models by cylinders, colored by origin","['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+405,Cars,chart number of vehicles by weight in buckets of 500,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+347,Cars,Show weight in a histogram,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+589,Movies,scatter plot of IMDB rating versus Rotten tomatoes rating,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+644,Movies,how many movies are there in 20 minute bins of running time,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+530,Movies,give me a bar chart of worldwide gross sum by major genres stacked by content ratings,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+403,Cars,scatter plot acceleration versus weight per country,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+651,Movies,Create scatter graph of IMDB rating by Rotten Tomatoes Rating,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+358,Cars,Show me average weight trended over ascending years,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+416,Cars,Scatter plot of displacement by MPG colored by country,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+689,Movies,show me small multiple scatter plots of movie production budget versus gross worldwide where each multiple is a specific rating,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+632,Movies,average worldwide gross by genre,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+395,Cars,Count by Weight Buckets,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+670,Movies,Scatter Plot of Rotten Tomatoes rating by the IMDB rating.,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+491,Movies,What creative type of movie had the highest production budget for each content rating?,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+609,Movies,breakdown of movies by running time,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+468,Movies,"make a simple line chart of the average of the Production Budget as a function of  Release Year.  | use no symbols, use a 1 pt line, and use gridlines for both average and release year.","['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+156,Cars,"Please show me the average accelerations of cars in multiple bar charts aggregated by the number of cylinders. In each bar chart, different bars represent different origins.","['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+577,Movies,"Gross, year and genre as a line chart","['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+34,cars,show origin as a bar chart,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+690,Movies,show me average production budget of each creative type across content ratings.,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+368,Cars,"create a stacked bar chart of the count of models by cylinder, group by origin","['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+655,Movies,scatter plot showing rotten tomatoes and IMDB ratings,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+449,Movies,show me bars | show me creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+421,Cars,Average MPG by cylinders histogram,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+567,Movies,Count of movies by creative type as a bar chart,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+699,Movies,show me the average gross revenue of for each genre,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+568,Movies,Give me a scatter chart of production budget versus worldwide gross for each content rating,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+377,Cars,How has AVG ( Horsepower ) evolved over time? | Segregate it by the car origin.,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+583,Movies,Count movies by length in 20 minute buckets,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+196,Cars,Does higher cylinder count mean mean lower mileage?,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+150,Cars,Is there a correlation between cars' horsepower and acceleration?,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+360,Cars,"create scatter plot of weight versus acceleration by car model, group by origin","['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+528,Movies,show me worldwide gross averaged by major genres,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+527,Movies,How production budget changes over release years?,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+525,Movies,"give me worldwide gross versus production budget, colored by major genres","['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+575,Movies,Total gross by genre and year,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+569,Movies,"For each content rating, compare budget versus gross in a scatter plot","['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+224,Cars,Plot count of models by grouped by origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+379,Cars,Show a scatter plot of acceleration versus Weight | Facet it by Origin.,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+571,Movies,"For each movie, show its budget and gross on a scatter plot and include the genre","['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+285,Cars,Show model count by origin in a bar chart,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+335,Cars,what is the average weight of cars over time,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+417,Cars,A scatter plot of horsepower on x-axis and Acceleration on y-axis,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+305,Cars,"Plot the average of Acceleration, grouped by Cylinders, colored by Origin","['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+622,Movies,"Show me scatter plot of production budget and worldwide gross for each title, by content rating","['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+661,Movies,Gross versus genre,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+461,Movies,Scatter Production Budget versus Worldwide Gross | Slice by Content Rating,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+45,cars,Show number of cars from each country,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+482,Movies,"Show me the average production budget for each movie type, broken down by content rating.","['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+677,Movies,Yearly Worldwide Gross for each Major Genre,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+344,Cars,"Show cylinders by COUNT ( Model ) in a bar chart', 'Add origin to legend","['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+519,Movies,Show a count of movies by creative type.,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+313,Cars,Plot Count of cars versus Weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+410,Cars,scatter plot MPG versus Displacement separated by country,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+576,Movies,Gross by genre and year,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+248,Cars,Plot count of cars by origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+169,Cars,line chart of average weight over year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+288,Cars,Show average mpg for each type of cylinder,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+201,Cars,What is the relation between horsepower and acceleration,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+340,Cars,Show year and AVG ( Horsepower ) in line chart | Add origin to legend,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+593,Movies,"bar chart for each rating, showing avg production budget per creative type","['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+142,Cars,show me the categorization of weights,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+698,Movies,show me a scatter plot of worldwide gross margin versus production budget; color movies by their genre,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+658,Movies,"running time distribution, buckets of 20 minutes for running time","['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+683,Movies,Average Production Budget by Creative Type filtered by Content Rating,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+663,Movies,worldwide gross for each genre for each year 1995 to now,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+531,Movies,What was the average production budget of movies by year?,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+77,movies,Bar chart of average worldwide gross by major genre,"['Worldwide_Gross', 'Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+268,Cars,How has horsepower changed over time by country?,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+290,Cars,show time series plot of average weight,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+422,Cars,How does acceleration change with horsepower?,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+638,Movies,average production budget with creative type as legend and trellised by content rating,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+228,Cars,plot the distribution of acceleration versus horsepower,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+304,Cars,Plot AVG ( MPG ) versus Cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+430,Cars,What is the average weight of cars by model year?,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+502,Movies,What is the distribution of running times for each movie?,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+452,Movies,Show me count of movies categorized by creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+152,Cars,Please show me a histogram of weights with 500 intervals.,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+696,Movies,show me how gross revenue of genres changes over time,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+518,Movies,show me bar charts of average production budget by creative types grouped by content rating,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+294,Cars,"For each country, show time series of average horsepower","['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+413,Cars,How does MPG vary by the number of cylinders in a car?,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+392,Cars,Bar chart of number of cars from each origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+472,Movies,Make a simple scatter plot of worldwide Gross by Production Budget categorized by Major Genre.,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+431,Cars,How has the average weight of cars changed over the years?,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+127,Cars,How many heavy cars are in the dataset?,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+125,Cars,Line chart avg horsepower per year Color by origin,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+538,Movies,Are IMDb rating and rotten tomatoes rating related,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+53,cars,Stacked bar chart to show number of cylinders on x-axis and count of cars segregated country wise on y-axis,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,0,2,2,1,0
+428,Cars,what is the breakdown of cars by the number of cylinders in each region?,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+656,Movies,wordwide gross versus production budget for each content rating,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+532,Movies,I want to see trend of production budget by the release year,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+328,Cars,Plot a histogram of Weight with a bin width of 500,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+542,Movies,Rating of movies in IMDB and Rotten Tomatoes,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+259,Cars,how weight varies each year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+257,Cars,how acceleration varies with number of cylinders by origin,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+27,soccer,"show me club wise median salary for spain, portugal and germany players.","['Club', 'Salary', 'null']",1,1,1,1,1,1,2,2,2,2,2,2,0,1
+187,Cars,Group cars by countries and cylinders,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+21,soccer,correlate goals and salary,"['Salary', 'Goals', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+237,Cars,"Histogram of weight, bin width of 500, min x-axis 1500, max x-axis 5500","['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+325,Cars,Group by Cylinders | Plot Cylinders by AVG MPG,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+78,movies,give me a bar chart of worldwide gross sum by major genres stacked by content ratings,"['Content_Rating', 'Worldwide_Gross', 'Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+639,Movies,average production budget over time,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+553,Movies,How much did each type of movie earn in across the whole world?,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+172,Cars,"histogram of weight, number of bins 8","['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+516,Movies,Movie run time distribution,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+596,Movies,Help me see outliers in IMDB and Rotten Tomatoes ratings,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+57,cars,Plot average MPG by number of cylinders,"['MPG', 'Cylinders', 'null']",0,1,1,1,0,1,2,2,2,2,0,2,0,1
+497,Movies,How many movies are there are of each creative type?,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+659,Movies,running time in 20 minute buckets,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+559,Movies,What is the average production budget in each year,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+365,Cars,How much do various cars weigh?,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+87,movies,Relation between worldwide gross and production budget for each major genre,"['Genre', 'Worldwide_Gross', 'Production_Budget', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+509,Movies,"Line graph of total Worldwide Gross by Major Genre, across Release Year","['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+56,cars,Scatter plot to show horsepower on x-axis and Acceleration on y-axis,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+141,Cars,show me the number of cars per country,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+679,Movies,Yearly average Production Budget,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+262,Cars,show scatter plot of acceleration and horsepower,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+556,Movies,"What was the average budget for each content rating and creative type, as multiple column charts","['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+363,Cars,create a scatter plot of acceleration versus horsepower by model,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+194,Cars,Histogram of car models by country,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+595,Movies,Plot IMDB versus Rotten Tomatoes ratings for all movies,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+557,Movies,"For each content rating, show a column chart of average production budget by creative type","['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+84,movies,counts of movies by creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+170,Cars,line chart of average weight over time,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+522,Movies,Gross versus production budget over different ratings,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+432,Movies,Relationship between IMDB Rating and Rotten Tomatoes Rating,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+372,Cars,create a line graph of average weight by year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+337,Cars,"show average acceleration by country of origin, with separate charts for # of cylinders","['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+621,Movies,show me the count of movies by running time buckets,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+459,Movies,Sum(Worldwide Gross) grouped by Genre and sub grouped by Content Rating,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+603,Movies,Chart scatter plot of worldwide gross by production budget broken down by content rating,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+401,Cars,Average MPG by cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+230,Cars,"Mean acceleration group by Cylinders and Origin, x-axis Origin, Color Origin, Each plot Cylinders","['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+143,Cars,show me how the number of cylinders is related to miles per gallon,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+258,Cars,show weight by year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+675,Movies,Worldwide Gross relationship to Production Budget separated by Content Rating,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+247,Cars,plot weight versus acceleration by origin,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+276,Cars,show me the origin country by cylinder count in a bar chart,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+688,Movies,show me scatter plots of movie production budget versus gross worldwide revenue broken down by rating,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+454,Movies,give me the number of movies by running time,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+291,Cars,show frequency by country,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+148,Cars,count the number of cars based on their origins.,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+25,soccer,players who scored between 5 and 10 goals and whose age is not more than 25,"['Name', 'Goals', 'null']",1,1,1,1,1,1,2,2,2,2,2,2,0,1
+62,cars,"Bar chart, x-axis origin, y-axis count of rows","['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+252,Cars,visualize in scatter plot the Displacement and MPG by origin,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+473,Movies,Make a bar chart of the sum of Worldwide Gross as a function of the Major Genre.  | Split each bar by Content Rating. Put a legend of the Content Rating on the right. Alphabetize Content Rating.,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+498,Movies,Which creative type had the most movies?,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+207,Cars,For each country show the relationship between average acceleration and number of cylinders,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+76,movies,Count of movies by Creative Type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+425,Cars,"how does MPG compare to displacement, broken out by region?","['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+626,Movies,gross across genres regarding content rating,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+654,Movies,relation between rotten tomatoes and IMDB ratings,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+694,Movies,show me how total gross revenue of all movies changes over a year for each genre,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+601,Movies,Display production budget by release date,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+652,Movies,Create timeline of worldwide gross by release year displayed by major genre,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+341,Cars,Show weight and acceleration in a XYplot | Add origin to groups,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+573,Movies,"On average, how much was earned by movies of each genre?","['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+537,Movies,Plot production budget against worldwide gross for the different rating categories of movies.,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+65,cars,show cars produced by different origin in various cylinders,"['Cylinders', 'Origin', 'null']",1,0,1,0,1,1,2,0,2,0,2,2,1,0
+423,Cars,How does acceleration behave compared to horsepower?,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+564,Movies,Count movies by creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+20,soccer,show me a distribution of goals,"['Goals', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+122,Cars,Scatter plot mpg versus displacement color by origin,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+204,Cars,What is the average weight distribution of cars between 1974 and 1980,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+83,movies,Stack bar chart of SUM(worldwide gross) versus movie genre based on content rating,"['Content_Rating', 'Worldwide_Gross', 'Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+673,Movies,Worldwide Gross relationship to Production budget and Major Genre,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+327,Cars,Plot Year by AVG Weight,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+38,cars,show an area chart of how acceleration has evolved over the years across origin,"['Origin', 'Acceleration', 'Year', 'null']",2,0,1,1,0,1,3,0,3,3,1,3,2,1
+536,Movies,Show me count of movie runtimes,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+210,Cars,Graph to show the acceleration for cars from different countries segregated based on number of cylinders,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+549,Movies,What is the total worldwide gross earned by each major genre and content rating?,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+277,Cars,Sum weight in a bar chart,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+96,movies,histogram of running time,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+208,Cars,Give different scatter plots of acceleration versus weight for each country,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+578,Movies,Give me a histogram of the number of movies by running time,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+511,Movies,"Bar chart of total worldwide gross by major genre, by content rating","['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+590,Movies,scatter plot of production budget versus worldwide gross for G rated movies | scatter plot of production budget versus worldwide gross for PG rated movies | scatter plot of production budget versus worldwide gross for PG-13 rated movies | scatter plot of production budget versus worldwide gross for R rated movies,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+427,Cars,How has horsepower changed over time in each region?,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+466,Movies,Make a simple bar chart of Count of Titles versus the category of Creative Type.,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+477,Movies,Show the number of films categorized by their running times.,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+581,Movies,Show a histogram of the number of movies by how long they are,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+503,Movies,Is there a relationship between IMDB rating and rotten tomatoes rating?,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+447,Movies,show me production budget against worldwide gross split by content rating,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+13,cars,Show mpg across origins,"['MPG', 'Origin', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+682,Movies,Average Worldwide Gross by Major Genre,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+361,Cars,create a histogram of the count of models by origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+433,Movies,draw bars | show me running time,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+702,Movies,"show me the number of each creative type move in a bar chart, order the bars in decreasing order.","['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+281,Cars,should me acceleration compared to horsepower in a scatter chart,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+42,cars,Bar chart of average acceleration for cars with each number of cylinders in each place of origin. Color by origin. Separate into multiple charts by number of cylinders.,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+496,Movies,How much did average worldwide gross vary by major genre?,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+206,Cars,"for country in USA, JAPAN and EUROPE show MPG versus Displacement","['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+631,Movies,average worldwide gross by major genre,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+339,Cars,"Show average horsepower over time, separated by country of origin","['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+192,Cars,Compare car cylinder count against acceleration across countries,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+37,cars,show a scatter plot of acceleration and mpg across origins,"['Origin', 'MPG', 'Acceleration', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+351,Cars,Show me count of models by origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+510,Movies,Scatter plot of Rotten Tomatoes Rating by IMDB Rating,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+529,Movies,Show a time series plot by year of the worldwide gross sum of movies by genre.,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+407,Cars,chart average MPG to cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+287,Cars,Plot average mpg against cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+378,Cars,Compare AVG ( Acceleration ) with Cylinders. | Segregate the cylinders by their origin.,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+263,Cars,show number of cars produced by each country,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+240,Cars,plot year by average weight,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+558,Movies,Average budget by year,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+579,Movies,How many movies are of each length?,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+600,Movies,"scatter(x-axis = production budget,y-axis = worldwide gross) for content rating","['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+414,Cars,Distribution of car weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+333,Cars,each car's acceleration by horsepower,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+14,cars,Weight and acceleration,"['Weight', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+592,Movies,"scatter plot of production budget versus worldwide gross, colored by genre","['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+429,Cars,How many cars have various numbers of cylinders in each region?,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+261,Cars,acceleration to horsepower,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+611,Movies,budget by worldwide gross per content rating,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+7,movies,show me an area chart of how comedy movies evolved over the years,"['Release_Year', 'null']",2,1,1,0,1,1,1,1,1,0,1,1,0,0
+620,Movies,"i want to see the average production budget of each creative type in a column chart, and grouped together by content rating","['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+667,Movies,Relation between worldwide gross and production budget for each major genre,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+191,Cars,Histogram of cars by weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+672,Movies,Scatter Plot of Worldwide Gross by Production Budget with Major Genre labels,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+70,movies,budget versus gross income across movie genres,"['Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,0,1,3,0,3,3,1,3,2,1
+331,Cars,"Show me each car's acceleration by weight, and split out separate charts for each country","['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+543,Movies,budget versus gross income across movie genres,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+490,Movies,"Plot the worldwide gross versus production budget for individual movies, coloring each movie by its genre.","['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+24,soccer,countries with the highest mean salary,"['Salary', 'Country', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+265,Cars,show weight by count,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+474,Movies,Show how content ratings are associated with gross receipts by genre.,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+649,Movies,count of movies by creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+35,cars,visualize horsepower and displacement as a scatter plot,"['Displacement', 'Horsepower', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+282,Cars,show me average Miles Per Gallon by cylinders in a bar chart,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+215,Cars,Line chart to show average weight of cars based on the year in which they were produced,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+685,Movies,Count by Creative Type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+562,Movies,Show a scatter plot of imdb rating versus rotten tomatoes rating,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+238,Cars,plot year by average horsepower | color by origin,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+580,Movies,Count the movies by how long they are,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+61,cars,"Histogram of weight, bin width of 500, min x-axis 1500, max x-axis 5500","['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+193,Cars,How many cars do each country manufacture?,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+400,Cars,Horsepower distribution by acceleration,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+199,Cars,what is the average MPG for different cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+249,Cars,show acceleration of cars by weight for different origin,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+60,cars,show how horsepower varies each year by origin,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+480,Movies,Show average worldwide gross by genre.,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+15,cars,Create a visualization with miles per gallon and horsepower,"['Horsepower', 'MPG', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+646,Movies,total worldwide gross by release year and major genre,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+134,Cars,"For each origin, acceleration by weight scatter plot","['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+336,Cars,"chart each model MPG by displacement, and identify country of origin","['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+394,Cars,Average Acceleration by Engine Cylinders and Origin,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+554,Movies,Global boxoffice by genre and mpaa rating,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+515,Movies,Movie count based on creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+369,Cars,create a bar chart of average acceleration grouped by origin | split splots by cylinders,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+307,Cars,"Draw axes for the average of Horsepower versus Year, colored by Origin","['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+375,Cars,correlate MPG and Displacement of cars | color the points by the car's origin,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+286,Cars,Show displacement and MPG in a XY chart | Add origin in legend,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+334,Cars,how many models are produced by each country,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+642,Movies,count of movies by binned running time,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+342,Cars,Show Cylinders and AVG ( Acceleration ) in bar chart | Add Cylinders to groups | Add Origin to legend,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+653,Movies,relation between rotten tomatoes rating and IMDB rating,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+158,Cars,"plot displacement against mpg for individual models, colored by country","['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+89,movies,give me the number of movies by running time,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+48,cars,Visualize the general trend of car model weights over the years,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+322,Cars,Europe acceleration by weight | japan | usa,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+231,Cars,"Stacked bar chart, x-axis cylinder, y-axis count, color by Origin","['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+380,Cars,Correlate Acceleration and Horsepower.,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+512,Movies,Count of movies by Creative Type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+494,Movies,What major genre had the highest average worldwide gross?,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+481,Movies,Show how worldwide gross is related to production budgets for each content rating.,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+687,Movies,show me small multiple scatter plots of movie production budget versus gross worldwide where each multiple is a specific rating,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+545,Movies,production budget versus worldwide gross regarding movie rating,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+386,Cars,Bar chart of weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+309,Cars,"Plot Acceleration versus Weight, grouped by Origin","['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+501,Movies,Is there a relationship between production budget and worldwide gross for each content rating?,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+126,Cars,Is there a correlation between acceleration and horsepower?,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+301,Cars,Plot MPG versus Displacement colored by Origin,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+404,Cars,How does the acceleration of cars from different countries vary by the number of cylinders?,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+594,Movies,"line chart of total worldwide gross over each release year, line for each genre","['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+213,Cars,Bar graph to show weight on x-axis and count of cars on y-axis,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+345,Cars,show year and avg ( Weight ) in a line chart,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+145,Cars,How do the horsepowers of the cars from different regions change with years?,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+129,Cars,Are there any American 5 cylinder cars?,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+253,Cars,show how horsepower varies each year by origin,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+229,Cars,Plot average MPG by number of cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+94,movies,give me line charts of worldwide gross over year by major genres,"['Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+535,Movies,Which genre movie makes most worldwide gross,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+165,Cars,"average horsepower over years, colored by origin","['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+370,Cars,create a line graph of average horsepower by year grouped by origin,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+624,Movies,release year versus worldwide gross in genres,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+376,Cars,where do the cars originate from?,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+478,Movies,Show the trend in average production budgets from 1995 to 2010.,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+605,Movies,Chart scatter plot of production budget by worldwide growth coded by major genre,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+246,Cars,plot weight histogram,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+623,Movies,budget versus content rating regarding different creative types,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+256,Cars,show acceleration by cylinders by origin,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+319,Cars,count by weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+88,movies,"average production budget by year, 1995 to 2009","['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+648,Movies,which creative types had the most movies?,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+366,Cars,What is the range of weights for all cars?,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+71,movies,Scatter plot of Worldwide Gross by Production Budget with different colors by major genre,"['Genre', 'Worldwide_Gross', 'Production_Budget', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+164,Cars,"scatter plot of horsepower by acceleration, separated by individual models","['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+495,Movies,What major genre had the lowest average worldwide gross?,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+124,Cars,Cylinders average mpg,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+504,Movies,Worldwide Gross by Production Budget by Rating in Scatter plot format,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+29,soccer,find the correlation between player goals and salaries across player foot.,"['Foot', 'Salary', 'Goals', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+180,Cars,bar chart of number of models by origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+316,Cars,count by origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+26,soccer,show me spain players under the age of 30 but with more than 5 goals,"['Name', 'Goals', 'null']",1,1,1,1,1,1,2,2,2,2,2,2,0,1
+251,Cars,show how MPG varies with displacement by different origin,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+250,Cars,show scatter plot of cars acceleration to weight by origin,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+81,movies,I want to see trend of production budget by the release year,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+242,Cars,plot cylinders by average mpg,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0

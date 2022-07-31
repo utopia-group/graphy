@@ -1,0 +1,1 @@
+color(Region),field(Region),x(Profit),sum(Profit),field(Profit),plot(bar)

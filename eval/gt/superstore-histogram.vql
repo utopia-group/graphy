@@ -1,0 +1,1 @@
+VISUALIZE BAR SELECT superstore.Quantity, COUNT(*) FROM superstore GROUP BY superstore.Quantity

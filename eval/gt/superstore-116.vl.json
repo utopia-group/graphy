@@ -1,0 +1,16 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "mark": {"type": "bar", "tooltip": true},
+  "encoding": {
+    "color": {"field": "Ship_Status", "type": "nominal", "aggregate": null},
+    "x": {"field": "Region", "type": "nominal", "aggregate": null},
+    "y": {"field": "Region", "type": "nominal", "aggregate": "count"}
+  },
+  "transform": [],
+  "data": {
+    "url": "https://raw.githubusercontent.com/nl4dv/nl4dv/master/examples/assets/data/superstore.csv",
+    "format": {"type": "csv"}
+  },
+  "ignore-orientation": "True",
+  "config": {}
+}

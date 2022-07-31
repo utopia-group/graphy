@@ -1,0 +1,102 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "transform": [{"window": [{"op": "row_number", "as": "row_number"}]}],
+  "hconcat": [
+    {
+      "width": 150,
+      "title": "Title",
+      "mark": "text",
+      "transform": [
+
+        {
+          "filter": {
+            "field": "Release_Year",
+            "range": ["1990/01/01", "2000/01/01"]
+          }
+        },
+        {"filter": {"field": "Genre", "oneOf": ["Romantic Comedy"]}}
+      ],
+      "encoding": {
+        "text": {"field": "Title", "type": "nominal"},
+        "y": {"field": "row_number", "type": "ordinal", "axis": null}
+      }
+    },
+    {
+      "width": 150,
+      "title": "Production_Budget",
+      "mark": "text",
+      "transform": [
+        {
+          "filter": {
+            "field": "Release_Year",
+            "range": ["1990/01/01", "2000/01/01"]
+          }
+        },
+        {"filter": {"field": "Genre", "oneOf": ["Romantic Comedy"]}}
+      ],
+      "encoding": {
+        "text": {"field": "Production_Budget", "type": "nominal"},
+        "y": {"field": "row_number", "type": "ordinal", "axis": null}
+      }
+    },
+    {
+      "width": 150,
+      "title": "Worldwide_Gross",
+      "mark": "text",
+      "transform": [
+        {
+          "filter": {
+            "field": "Release_Year",
+            "range": ["1990/01/01", "2000/01/01"]
+          }
+        },
+        {"filter": {"field": "Genre", "oneOf": ["Romantic Comedy"]}}
+      ],
+      "encoding": {
+        "text": {"field": "Worldwide_Gross", "type": "nominal"},
+        "y": {"field": "row_number", "type": "ordinal", "axis": null}
+      }
+    },
+    {
+      "width": 150,
+      "title": "Running_Time",
+      "mark": "text",
+      "transform": [
+
+        {
+          "filter": {
+            "field": "Release_Year",
+            "range": ["1990/01/01", "2000/01/01"]
+          }
+        },
+        {"filter": {"field": "Genre", "oneOf": ["Romantic Comedy"]}}
+      ],
+      "encoding": {
+        "text": {"field": "Running_Time", "type": "nominal"},
+        "y": {"field": "row_number", "type": "ordinal", "axis": null}
+      }
+    },
+    {
+      "width": 150,
+      "title": "Creative_Type",
+      "mark": "text",
+      "transform": [
+        {
+          "filter": {
+            "field": "Release_Year",
+            "range": ["1990/01/01", "2000/01/01"]
+          }
+        },
+        {"filter": {"field": "Genre", "oneOf": ["Romantic Comedy"]}}
+      ],
+      "encoding": {
+        "text": {"field": "Creative_Type", "type": "nominal"},
+        "y": {"field": "row_number", "type": "ordinal", "axis": null}
+      }
+    }
+  ],
+  "data": {
+    "url": "https://raw.githubusercontent.com/nl4dv/nl4dv/master/examples/assets/data/movies-w-year.csv",
+    "format": {"type": "csv"}
+  }
+}

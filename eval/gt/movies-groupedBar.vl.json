@@ -1,0 +1,41 @@
+{
+		"$schema": "https://vega.github.io/schema/vega-lite/v3.json",
+		"data": {
+			"url": "datasets/movies.csv"
+		},
+		"mark": {
+			"type": "bar",
+			"tooltip": null
+		},
+		"encoding": {
+			"column": {
+				"field": "Content_Rating",
+				"type": "ordinal"
+			},
+			"x": {
+				"field": "Creative_Type",
+				"scale": {
+					"rangeStep": 15
+				},
+				"type": "nominal",
+				"axis": {
+					"title": "",
+					"labels": false,
+					"ticks": false
+				}
+			},
+			"y": {
+				"aggregate": "mean",
+				"field": "Production_Budget",
+				"type": "quantitative",
+				"axis": {
+					"title": "AVG (Production_Budget)",
+					"format": "~s"
+				}
+			},
+			"color": {
+				"field": "Creative_Type",
+				"type": "nominal"
+			}
+		}
+	}

@@ -1,0 +1,1 @@
+plot(tick),field(Worldwide_Gross),x(Worldwide_Gross)

@@ -1,0 +1,1 @@
+plot(scatter),y(Goals),field(Salary),field(Goals),x(Salary)

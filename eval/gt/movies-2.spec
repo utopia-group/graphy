@@ -1,0 +1,1 @@
+x(Worldwide_Gross),plot(scatter),field(Production_Budget),filter(Release_Year >= 2000/01/01),filter(Genre = Adventure),y(Production_Budget),field(Worldwide_Gross)

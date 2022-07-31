@@ -1,0 +1,27 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "mark": {"type": "tick", "tooltip": true},
+  "encoding": {
+    "x": {
+      "field": "Average Worldwide_Gross",
+      "type": "quantitative",
+      "aggregate": null, 
+      "axis": {"format": "s"}
+    },
+    "detail": {"field": "Genre"}
+  },
+  "transform": [
+    {
+      "aggregate": [{
+        "op": "mean",
+        "field": "Worldwide_Gross",
+        "as": "Average Worldwide_Gross"
+      }],
+      "groupby": ["Genre"]
+    }
+  ],
+  "data": {
+    "url": "https://raw.githubusercontent.com/nl4dv/nl4dv/master/examples/assets/data/movies-w-year.csv",
+    "format": {"type": "csv"}
+  }
+}

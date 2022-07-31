@@ -1,0 +1,1 @@
+VISUALIZE BAR SELECT movies.Major_Genres, AVG(movies.Worldwide_Gross) FROM movies 

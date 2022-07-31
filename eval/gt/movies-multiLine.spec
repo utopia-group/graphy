@@ -1,0 +1,1 @@
+plot(line),x(Release_Year),y(Worldwide_Gross),field(Major_Genre),color(Major_Genre),field(Release_Year),sum(Worldwide_Gross),field(Worldwide_Gross)

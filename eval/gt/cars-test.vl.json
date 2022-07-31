@@ -1,0 +1,24 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "mark": {"type": "point", "tooltip": true},
+    "encoding": {
+      "x": {
+        "field": "Weight",
+        "type": "quantitative",
+        "aggregate": null,
+        "axis": {"format": "s"}
+      },
+      "y": {
+        "field": "Acceleration",
+        "type": "quantitative",
+        "aggregate": null,
+        "axis": {"format": "s"}
+      },
+      "tooltip": {"field": "Model"}
+    },
+    "transform": [],
+    "data": {
+      "url": "eval/data/cars-w-year.csv",
+      "format": {"type": "csv"}
+    }
+  }

@@ -1,0 +1,1 @@
+VISUALIZE Scatter SELECT cars.Displacement, cars.MPG FROM cars GROUP BY cars.Origin

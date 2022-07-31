@@ -1,0 +1,1 @@
+VISUALIZE scatter SELECT cars.Weight, cars.Acceleration FROM cars COLUMN BY cars.Origin

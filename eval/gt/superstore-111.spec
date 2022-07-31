@@ -1,0 +1,1 @@
+field(Region),x(Region),sum(Profit),field(Profit),plot(bar),color(Ship_Status),y(Profit),field(Ship_Status)

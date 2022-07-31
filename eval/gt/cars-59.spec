@@ -1,0 +1,1 @@
+plot(line),field(Horsepower),x(Year),y(Horsepower),color(Origin),field(Year),field(Origin),mean(Horsepower)

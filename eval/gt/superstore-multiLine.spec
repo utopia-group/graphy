@@ -1,0 +1,1 @@
+plot(line),color(Category),y(Sales),field(Order_Date),field(Sales),field(Category),x(Order_Date),sum(Sales)

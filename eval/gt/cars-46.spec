@@ -1,0 +1,1 @@
+plot(bar),color(Origin),column(Cylinders),field(Acceleration),mean(Acceleration),y(Acceleration),field(Origin),field(Cylinders),x(Origin)

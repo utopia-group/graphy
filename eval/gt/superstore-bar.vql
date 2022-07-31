@@ -1,0 +1,1 @@
+VISUALIZE BAR SELECT superstore.State, AVG(superstore.Profit) FROM superstore

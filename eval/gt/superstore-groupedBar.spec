@@ -1,0 +1,1 @@
+field(Profit),plot(bar),color(Segment),y(Profit),x(Segment),column(Ship_Mode),field(Ship_Mode),field(Segment),mean(Profit)

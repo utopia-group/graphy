@@ -1,0 +1,24 @@
+id,data,query,fields,plot,color,column,count,mean,sum,plot-field,color-field,column-field,count-field,mean-field,sum-field,x-field,y-field
+722,Superstore,"Clustered Column chart, Average of Profit by segment, small multiples on ship mode","['Segment', 'Ship_Mode', 'Profit', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+733,Superstore,"total sales by order date and category where category is furniture, office supplies, technology","['Category', 'Sales', 'Order_Date', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+829,Superstore,What is our profit based on shipping mode by customer segment?,"['Segment', 'Ship_Mode', 'Profit', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+714,Superstore,Scatter Plot of Sales versus Profit,"['Profit', 'Sales', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+909,Superstore,Scatter plot profit versus sales with color indicating geographic region of the U.S.,"['Region', 'Sales', 'Profit', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+840,Superstore,What is the average profit of each state,"['Profit', 'State', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+814,Superstore,what is the sales trend of the different product categories?,"['Category', 'Sales', 'Order_Date', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+891,Superstore,Show me a scatter chart of profit by sales for each region,"['Region', 'Sales', 'Profit', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+730,Superstore,total count for each sub-category item,"['Sub-Category', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+924,Superstore,show a relationship using a bar chart to show the relationship between items order and the count of those items,"['Quantity', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+752,Superstore,"Create a line chart showing order date and sum of sales, divided by category","['Category', 'Sales', 'Order_Date', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+813,Superstore,"show profit versus sales as scatter plot, use a different color for each region","['Region', 'Sales', 'Profit', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+836,Superstore,Profit versus Sales Cluster by Region,"['Region', 'Sales', 'Profit', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+828,Superstore,By region show our profits based on the shipping status of the order,"['Ship_Status', 'Profit', 'Region', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+816,Superstore,How many products are ordered in single quantity ?,"['Quantity', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+886,Superstore,Show me the total sales by order date split by category,"['Category', 'Sales', 'Order_Date', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+712,Superstore,Scatter Plot for each region of Profit versus Sales,"['Region', 'Sales', 'Profit', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+922,Superstore,Show correlation between sales and profit,"['Profit', 'Sales', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+869,Superstore,Count asc Sub-Category render best,"['Sub-Category', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+868,Superstore,Count Sub-Category Asc,"['Sub-Category', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+907,Superstore,Show me the variation in the amount ordered by different entities in different orders,"['Quantity', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+785,Superstore,"Show me the sales of furniture, office supplies, and technology over time","['Category', 'Sales', 'Order_Date', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+913,Superstore,"line chart of sales versus order date of furniture, office supplies, technology. Distnighish by color","['Category', 'Sales', 'Order_Date', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1

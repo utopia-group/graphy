@@ -1,0 +1,244 @@
+id,data,query,fields,plot,color,column,count,mean,sum,plot-field,color-field,column-field,count-field,mean-field,sum-field,x-field,y-field
+434,Movies,histogram of running time,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+595,Movies,Plot IMDB versus Rotten Tomatoes ratings for all movies,"['Rotten_Tomatoes_Rating', 'Creative_Type', 'IMDB_Rating', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,2,0
+627,Movies,"production budget versus worldwide gross for each movie, trellised by content rating","['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+618,Movies,"plot all titles on a scatter plot chart by production budget an worldwide gross, and color the dots by major genre","['Worldwide_Gross', 'Major_Genre', 'Production_Budget', 'Title', 'null']",0,0,1,1,1,1,4,1,4,4,4,4,2,0
+652,Movies,Create timeline of worldwide gross by release year displayed by major genre,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+448,Movies,scatter plot budget and worldwide gross colored by genre,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+542,Movies,Rating of movies in IMDB and Rotten Tomatoes,"['Rotten_Tomatoes_Rating', 'Creative_Type', 'Title', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,-1,0
+648,Movies,which creative types had the most movies?,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+562,Movies,Show a scatter plot of imdb rating versus rotten tomatoes rating,"['Rotten_Tomatoes_Rating', 'IMDB_Rating', 'Title', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,1,0
+676,Movies,Worldwide Gross through time for each Major Genre,"['Worldwide_Gross', 'Major_Genre', 'null']",3,0,1,1,1,0,2,1,2,2,2,0,-1,0
+459,Movies,Sum(Worldwide Gross) grouped by Genre and sub grouped by Content Rating,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+541,Movies,budget over time,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+587,Movies,bar chart of number of movies in each creative category,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+659,Movies,running time in 20 minute buckets,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+501,Movies,Is there a relationship between production budget and worldwide gross for each content rating?,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+571,Movies,"For each movie, show its budget and gross on a scatter plot and include the genre","['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+599,Movies,What was the average worldwide gross of movies by genre?,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+523,Movies,Show worldwide gross timeline by movie genre,"['Worldwide_Gross', 'Major_Genre', 'null']",3,0,1,1,1,0,2,1,2,2,2,0,-1,0
+512,Movies,Count of movies by Creative Type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+616,Movies,Show me a scatter plot of movies by imdb rating and rotten tomatoes rating,"['Rotten_Tomatoes_Rating', 'IMDB_Rating', 'Title', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,1,0
+505,Movies,"Histogram of running time, in 20 minute bands","['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+483,Movies,Plot the total worldwide gross for each major genre using a stacked bar chart. Break down within each genre by content rating.,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+592,Movies,"scatter plot of production budget versus worldwide gross, colored by genre","['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+694,Movies,show me how total gross revenue of all movies changes over a year for each genre,"['Worldwide_Gross', 'Major_Genre', 'null']",3,0,1,1,1,0,2,1,2,2,2,0,-1,0
+561,Movies,Compare imdb rating to rotten tomatoes rating,"['Rotten_Tomatoes_Rating', 'Creative_Type', 'IMDB_Rating', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,2,0
+436,Movies,give me line charts of worldwide gross over year by major genres,"['Worldwide_Gross', 'Major_Genre', 'null']",3,0,1,1,1,0,2,1,2,2,2,0,-1,0
+685,Movies,Count by Creative Type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+655,Movies,scatter plot showing rotten tomatoes and IMDB ratings,"['Rotten_Tomatoes_Rating', 'IMDB_Rating', 'Title', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,1,0
+470,Movies,Make vertical bar charts of the average of the Production Budget categorized by Creative Type and parameterized by Content Rating across the page. | Put an alphabetized legend for Creative type on the right side of the page. Do not use an x-axis or category-axis but use the same axis for each chart. Use only major average of Production Budget gridlines.,"['Creative_Type', 'Major_Genre', 'Production_Budget', 'Content_Rating', 'null']",1,0,0,1,0,1,4,0,3,4,2,4,0,2
+495,Movies,What major genre had the lowest average worldwide gross?,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+472,Movies,Make a simple scatter plot of worldwide Gross by Production Budget categorized by Major Genre.,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+628,Movies,"scatter charts for each content rating, showing production budget and worldwide gross for each movie","['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+560,Movies,Give me a line chart of average budget by year,"['Release_Year', 'Production_Budget', 'Title', 'null']",3,1,1,1,0,1,3,3,3,3,1,3,0,1
+630,Movies,show the spread of production budget and worldwide gross for each movie with genre as a legend,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+499,Movies,Which creative type had the fewest movies?,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+672,Movies,Scatter Plot of Worldwide Gross by Production Budget with Major Genre labels,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+531,Movies,What was the average production budget of movies by year?,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+546,Movies,gross across genres,"['Major_Genre', 'null']",1,1,1,1,0,1,1,1,1,1,-1,1,0,-1
+438,Movies,Movie gross and budget relationship based on genre,"['Major_Genre', 'Production_Budget', 'null']",0,0,1,1,1,1,2,0,2,2,2,2,1,-1
+458,Movies,Average Production Budget by Year,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+669,Movies,"average production budget by year, 1995 to 2009","['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+574,Movies,Total gross by year and genre,"['Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,2,-1,2,2,2,0,1,0
+696,Movies,show me how gross revenue of genres changes over time,"['Worldwide_Gross', 'Major_Genre', 'null']",3,0,1,1,1,0,2,1,2,2,2,0,-1,0
+625,Movies,counts of movies by creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+524,Movies,plot IMDB rating against rotten tomatoes rating,"['Rotten_Tomatoes_Rating', 'Creative_Type', 'IMDB_Rating', 'Title', 'null']",0,1,1,1,1,1,4,4,4,4,4,4,2,0
+611,Movies,budget by worldwide gross per content rating,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+585,Movies,histogram of running time,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+502,Movies,What is the distribution of running times for each movie?,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+569,Movies,"For each content rating, compare budget versus gross in a scatter plot","['Worldwide_Gross', 'Content_Rating', 'null']",0,1,0,1,1,1,2,2,1,2,2,2,-1,0
+443,Movies,histogram for creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+657,Movies,running time distribution,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+573,Movies,"On average, how much was earned by movies of each genre?","['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+668,Movies,"Production budget for each creative type, by content rating","['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+491,Movies,What creative type of movie had the highest production budget for each content rating?,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+510,Movies,Scatter plot of Rotten Tomatoes Rating by IMDB Rating,"['Rotten_Tomatoes_Rating', 'IMDB_Rating', 'Title', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,1,0
+631,Movies,average worldwide gross by major genre,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+476,Movies,Show how films' Rotten Tomatoes ratings compare with IMDB ratings.,"['Rotten_Tomatoes_Rating', 'IMDB_Rating', 'Title', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,1,0
+456,Movies,Average Worldwide Gross by Major Genre,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+568,Movies,Give me a scatter chart of production budget versus worldwide gross for each content rating,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+551,Movies,Give me a stacked column chart of worldwide gross by genre and rating,"['Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,2,-1,2,2,2,0,1,0
+463,Movies,Avg(Poduction Budget) Grouped by Content Rating and sub-grouped by Creative Type,"['Creative_Type', 'Content_Rating', 'null']",1,0,0,1,0,1,2,0,1,2,-1,2,0,-1
+680,Movies,Total Worldwide Gross by Major Genre separated by Content Rating,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+644,Movies,how many movies are there in 20 minute bins of running time,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+528,Movies,show me worldwide gross averaged by major genres,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+450,Movies,Plot IMDB rating against Rotten Tomatoes rating.,"['Rotten_Tomatoes_Rating', 'Creative_Type', 'IMDB_Rating', 'Title', 'null']",0,1,1,1,1,1,4,4,4,4,4,4,2,0
+650,Movies,Create column graph of all movies by creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+509,Movies,"Line graph of total Worldwide Gross by Major Genre, across Release Year","['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+477,Movies,Show the number of films categorized by their running times.,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+515,Movies,Movie count based on creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+606,Movies,Create column graph of worldwide gross by major genre for all movies,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+544,Movies,production budget across years,"['Production_Budget', 'null']",3,1,1,1,0,1,1,1,1,1,0,1,-1,0
+487,Movies,Plot the average production budget each year across all movies.,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+633,Movies,scatter of imdb rating by rotten tomatoes rating,"['Rotten_Tomatoes_Rating', 'Creative_Type', 'IMDB_Rating', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,2,0
+579,Movies,How many movies are of each length?,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+442,Movies,show me a scatter plot | show me rating | show me rotten tomatoes rating,"['Rotten_Tomatoes_Rating', 'Creative_Type', 'Title', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,-1,0
+622,Movies,"Show me scatter plot of production budget and worldwide gross for each title, by content rating","['Worldwide_Gross', 'Title', 'Production_Budget', 'Content_Rating', 'null']",0,1,0,1,1,1,4,4,3,4,4,4,2,0
+647,Movies,how many movies are there for each creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+689,Movies,show me small multiple scatter plots of movie production budget versus gross worldwide where each multiple is a specific rating,"['Worldwide_Gross', 'Production_Budget', 'null']",0,1,0,1,1,1,2,2,-1,2,2,2,1,0
+591,Movies,"Stacked bar chart of total worldwide gross for each genre, separated by rating","['Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,2,-1,2,2,2,0,1,0
+693,Movies,show me a histogram of movie length,"['Title', 'null']",1,1,1,0,1,1,1,1,1,-1,1,1,-1,-1
+675,Movies,Worldwide Gross relationship to Production Budget separated by Content Rating,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+605,Movies,Chart scatter plot of production budget by worldwide growth coded by major genre,"['Major_Genre', 'Production_Budget', 'null']",0,0,1,1,1,1,2,0,2,2,2,2,1,-1
+540,Movies,what's the breakdown of production budget by creative type per content rating?,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+465,Movies,Make a simple bar chart of count of Titles versus the Running Time. | Extend axes to labels and use only Count or lateral gridlines.,"['Running_Time', 'Title', 'null']",1,1,1,0,1,1,2,2,2,0,2,2,0,0
+670,Movies,Scatter Plot of Rotten Tomatoes rating by the IMDB rating.,"['Rotten_Tomatoes_Rating', 'IMDB_Rating', 'Title', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,1,0
+649,Movies,count of movies by creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+435,Movies,what's the production budget for movies in different years?,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+548,Movies,how does Rotten Tomatoes Rating change as IMDB Rating?,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+601,Movies,Display production budget by release date,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+511,Movies,"Bar chart of total worldwide gross by major genre, by content rating","['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+488,Movies,Plot a histogram of movie running time.,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+584,Movies,Show the total gross across genres over time,"['Worldwide_Gross', 'Major_Genre', 'null']",3,0,1,1,1,0,2,1,2,2,2,0,-1,0
+639,Movies,average production budget over time,"['Production_Budget', 'null']",3,1,1,1,0,1,1,1,1,1,0,1,-1,0
+539,Movies,what is the worldwide gross distribution per genre,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+634,Movies,imdb rating versus rotten tomatoes rating by movie,"['Rotten_Tomatoes_Rating', 'Creative_Type', 'IMDB_Rating', 'Title', 'null']",0,1,1,1,1,1,4,4,4,4,4,4,2,0
+525,Movies,"give me worldwide gross versus production budget, colored by major genres","['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+700,Movies,show me a bar plot where the x-axis is movie genre and the y-axis is average worldwide revenue,"['Worldwide_Gross', 'Major_Genre', 'Title', 'null']",1,1,1,1,0,1,3,3,3,3,0,3,1,0
+613,Movies,Show me the total worldwide gross over time by release year for the major genres,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+451,Movies,show me movies by creative types,"['Creative_Type', 'Title', 'null']",1,1,1,0,1,1,2,2,2,0,2,2,0,0
+474,Movies,Show how content ratings are associated with gross receipts by genre.,"['Major_Genre', 'Content_Rating', 'null']",1,0,1,1,1,0,2,1,2,2,2,-1,0,-1
+449,Movies,show me bars | show me creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+460,Movies,Scatter Production Budget versus Worldwide Gross. Color Code Major Genre.,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+457,Movies,histogram of Running Time,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+593,Movies,"bar chart for each rating, showing avg production budget per creative type","['Creative_Type', 'Production_Budget', 'null']",1,0,0,1,0,1,2,0,-1,2,1,2,0,1
+617,Movies,Show me the total worldwide gross for all major genres in a stacked bar chart and color it out by content rating,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+441,Movies,plot worldwide gross over release year split by genre,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+678,Movies,Total Count based on Running Time,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+679,Movies,Yearly average Production Budget,"['Production_Budget', 'null']",3,1,1,1,0,1,1,1,1,1,0,1,-1,0
+610,Movies,IMDB rating by rotten tomatoes rating,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+498,Movies,Which creative type had the most movies?,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+507,Movies,Line graph of average Production Budget across Release Year,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+642,Movies,count of movies by binned running time,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+664,Movies,how many films of each creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+692,Movies,"show me how each rating, broken down by creative type, affects the average production budget","['Creative_Type', 'Production_Budget', 'null']",1,0,0,1,0,1,2,0,-1,2,1,2,0,1
+682,Movies,Average Worldwide Gross by Major Genre,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+653,Movies,relation between rotten tomatoes rating and IMDB rating,"['Rotten_Tomatoes_Rating', 'Creative_Type', 'IMDB_Rating', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,2,0
+461,Movies,Scatter Production Budget versus Worldwide Gross | Slice by Content Rating,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+578,Movies,Give me a histogram of the number of movies by running time,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+691,Movies,show me small multiples of average production budget for each creative type across different ratings,"['Creative_Type', 'Production_Budget', 'null']",1,0,0,1,0,1,2,0,-1,2,1,2,0,1
+437,Movies,show me average budget split by content rating colored by creative type,"['Creative_Type', 'Content_Rating', 'null']",1,0,0,1,0,1,2,0,1,2,-1,2,0,-1
+432,Movies,Relationship between IMDB Rating and Rotten Tomatoes Rating,"['Rotten_Tomatoes_Rating', 'Creative_Type', 'IMDB_Rating', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,2,0
+506,Movies,Scatter plot of Worldwide Gross by Production Budget with different colors by major genre,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+563,Movies,Give me a scatter plot showing a comparison of ratings between imdb and rotten tomatoes,"['Rotten_Tomatoes_Rating', 'Creative_Type', 'Title', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,-1,0
+673,Movies,Worldwide Gross relationship to Production budget and Major Genre,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+475,Movies,Show how genres have been associated with worldwide grosses from 1995 to 2009.,"['Worldwide_Gross', 'Major_Genre', 'null']",3,0,1,1,1,0,2,1,2,2,2,0,-1,0
+490,Movies,"Plot the worldwide gross versus production budget for individual movies, coloring each movie by its genre.","['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+641,Movies,average production budget over time,"['Production_Budget', 'null']",3,1,1,1,0,1,1,1,1,1,0,1,-1,0
+702,Movies,"show me the number of each creative type move in a bar chart, order the bars in decreasing order.","['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+646,Movies,total worldwide gross by release year and major genre,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+597,Movies,Show me a boring bar chart of movie running time and count,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+496,Movies,How much did average worldwide gross vary by major genre?,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+637,Movies,average production budget by creative type and content rating,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+645,Movies,worldwide gross over time by genre,"['Worldwide_Gross', 'Major_Genre', 'null']",3,0,1,1,1,0,2,1,2,2,2,0,-1,0
+635,Movies,worldwide gross by major genre and content rating,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+640,Movies,average production budget by year,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+520,Movies,plot average production budget over release year,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+468,Movies,"make a simple line chart of the average of the Production Budget as a function of  Release Year.  | use no symbols, use a 1 pt line, and use gridlines for both average and release year.","['Release_Year', 'Production_Budget', 'Title', 'null']",3,1,1,1,0,1,3,3,3,3,1,3,0,1
+533,Movies,"What's the average production budget of the different rated movies, separated by creative type.","['Creative_Type', 'Production_Budget', 'null']",1,0,0,1,0,1,2,0,-1,2,1,2,0,1
+565,Movies,Which creative types have the most movies?,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+447,Movies,show me production budget against worldwide gross split by content rating,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+620,Movies,"i want to see the average production budget of each creative type in a column chart, and grouped together by content rating","['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+537,Movies,Plot production budget against worldwide gross for the different rating categories of movies.,"['Worldwide_Gross', 'Major_Genre', 'Production_Budget', 'null']",0,1,0,1,1,1,3,3,-1,3,3,3,2,0
+638,Movies,average production budget with creative type as legend and trellised by content rating,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+516,Movies,Movie run time distribution,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+583,Movies,Count movies by length in 20 minute buckets,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+624,Movies,release year versus worldwide gross in genres,"['Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,2,-1,2,2,2,0,1,0
+686,Movies,show me a line plot of average movie production budget over time for all movies,"['Production_Budget', 'null']",3,1,1,1,0,1,1,1,1,1,0,1,-1,0
+607,Movies,Create stacked column graph of worldwide gross by major genre by content rating,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+580,Movies,Count the movies by how long they are,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+698,Movies,show me a scatter plot of worldwide gross margin versus production budget; color movies by their genre,"['Worldwide_Gross', 'Major_Genre', 'Production_Budget', 'Title', 'null']",0,0,1,1,1,1,4,1,4,4,4,4,2,0
+604,Movies,Create histogram of running time,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+543,Movies,budget versus gross income across movie genres,"['Worldwide_Gross', 'Major_Genre', 'null']",0,0,1,1,1,1,2,1,2,2,2,2,-1,0
+466,Movies,Make a simple bar chart of Count of Titles versus the category of Creative Type.,"['Creative_Type', 'Major_Genre', 'Title', 'null']",1,1,1,0,1,1,3,3,3,0,3,3,0,0
+656,Movies,wordwide gross versus production budget for each content rating,"['Production_Budget', 'Content_Rating', 'null']",0,1,0,1,1,1,2,2,1,2,2,2,0,-1
+684,Movies,Average Production Budget by Creative Type separated by Content Rating,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+494,Movies,What major genre had the highest average worldwide gross?,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+683,Movies,Average Production Budget by Creative Type filtered by Content Rating,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+489,Movies,Plot rotten tomatoes rating v.s. IMDB rating on a scatter plot.,"['IMDB_Rating', 'Rotten_Tomatoes_Rating', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+660,Movies,Gross versus major genre,"['Major_Genre', 'null']",1,1,1,1,0,1,1,1,1,1,-1,1,0,-1
+558,Movies,Average budget by year,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+658,Movies,"running time distribution, buckets of 20 minutes for running time","['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+530,Movies,give me a bar chart of worldwide gross sum by major genres stacked by content ratings,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+513,Movies,Bar chart of average worldwide gross by major genre,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+632,Movies,average worldwide gross by genre,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+532,Movies,I want to see trend of production budget by the release year,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+690,Movies,show me average production budget of each creative type across content ratings.,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+629,Movies,production budget versus worldwide gross by movie and major genre,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+581,Movies,Show a histogram of the number of movies by how long they are,"['Release_Year', 'Title', 'null']",1,1,1,0,1,1,2,2,2,-1,2,2,-1,-1
+699,Movies,show me the average gross revenue of for each genre,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+522,Movies,Gross versus production budget over different ratings,"['Production_Budget', 'null']",0,1,0,1,1,1,1,1,-1,1,1,1,0,-1
+452,Movies,Show me count of movies categorized by creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+500,Movies,What is the total worldwide gross for each major genre across time?,"['Worldwide_Gross', 'Major_Genre', 'null']",3,0,1,1,1,0,2,1,2,2,2,0,-1,0
+444,Movies,give me scatter plot of worldwide gross versus production budget by different content ratings,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+564,Movies,Count movies by creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+609,Movies,breakdown of movies by running time,"['Running_Time', 'Title', 'null']",1,1,1,0,1,1,2,2,2,0,2,2,0,0
+623,Movies,budget versus content rating regarding different creative types,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+534,Movies,Stack bar chart of SUM(worldwide gross) versus movie genre based on content rating,"['Worldwide_Gross', 'Content_Rating', 'null']",1,0,1,1,1,0,2,1,2,2,2,0,-1,0
+545,Movies,production budget versus worldwide gross regarding movie rating,"['Worldwide_Gross', 'Production_Budget', 'null']",0,1,0,1,1,1,2,2,-1,2,2,2,1,0
+662,Movies,line graph of worldwide gross for each genre for each year starting in 1995 to present,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+612,Movies,production budget by gross for movies per genre,"['Major_Genre', 'Production_Budget', 'null']",0,0,1,1,1,1,2,0,2,2,2,2,1,-1
+538,Movies,Are IMDb rating and rotten tomatoes rating related,"['Rotten_Tomatoes_Rating', 'Creative_Type', 'IMDB_Rating', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,2,0
+688,Movies,show me scatter plots of movie production budget versus gross worldwide revenue broken down by rating,"['Worldwide_Gross', 'Production_Budget', 'Title', 'null']",0,1,0,1,1,1,3,3,-1,3,3,3,1,0
+553,Movies,How much did each type of movie earn in across the whole world?,"['Worldwide_Gross', 'Creative_Type', 'null']",1,0,1,1,1,0,2,-1,2,2,2,0,-1,0
+582,Movies,Count movies by how long they are to the nearest 20 minutes,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+486,Movies,Plot the total worldwide gross over time for each major genre.,"['Worldwide_Gross', 'Major_Genre', 'null']",3,0,1,1,1,0,2,1,2,2,2,0,-1,0
+464,Movies,plot a simple line chart that Sums the Worldwide Gross of major films versus release year parameterized by Major Genre. | Do not use symbols and show only major gridlines. Extend the axis to the labels.,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+643,Movies,what's the distribution of running times by movie,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+598,Movies,Give me a histogram of running time for movies,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+549,Movies,What is the total worldwide gross earned by each major genre and content rating?,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+701,Movies,"show me a histogram of the count of each creative type, sorted in descending number of releases.","['Creative_Type', 'Release_Year', 'null']",1,1,1,0,1,1,2,2,2,0,2,2,0,0
+455,Movies,scatter IMDB Rating versus Rotten Tomatoes Rating,"['Rotten_Tomatoes_Rating', 'Creative_Type', 'IMDB_Rating', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,2,0
+674,Movies,Worldwide Gross relationship to Production Budget filtered by Content Rating,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+453,Movies,show me bars | show me major genre | show me average of worldwide gross,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+586,Movies,bar chart of AVG worldwide gross for movies in each genre,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+661,Movies,Gross versus genre,"['Major_Genre', 'null']",1,1,1,1,0,1,1,1,1,1,-1,1,0,-1
+594,Movies,"line chart of total worldwide gross over each release year, line for each genre","['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+677,Movies,Yearly Worldwide Gross for each Major Genre,"['Worldwide_Gross', 'Major_Genre', 'null']",3,0,1,1,1,0,2,1,2,2,2,0,-1,0
+440,Movies,give me a scatter plot of imdb rating as x-axis and rotten tomatoes rating as y-axis,"['Rotten_Tomatoes_Rating', 'IMDB_Rating', 'Title', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,1,0
+485,Movies,"Plot the worldwide gross v.s. production budget on a scatter plot, broken down by content rating.","['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+603,Movies,Chart scatter plot of worldwide gross by production budget broken down by content rating,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+619,Movies,show me the average production budget by release year in a line chart,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+615,Movies,How much did major genres gross in total,"['Major_Genre', 'null']",1,1,1,1,0,1,1,1,1,1,-1,1,0,-1
+478,Movies,Show the trend in average production budgets from 1995 to 2010.,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+492,Movies,What is the relationship between production budget and worldwide gross for each major genre?,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+480,Movies,Show average worldwide gross by genre.,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+503,Movies,Is there a relationship between IMDB rating and rotten tomatoes rating?,"['Rotten_Tomatoes_Rating', 'Creative_Type', 'IMDB_Rating', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,2,0
+570,Movies,Give me a scatter plot of budget versus gross broken down by movie but with genre as a legend,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+695,Movies,show me a line plot of sum of gross revenue for each genre over time,"['Worldwide_Gross', 'Major_Genre', 'Title', 'null']",3,0,1,1,1,0,3,1,3,3,3,0,-1,0
+529,Movies,Show a time series plot by year of the worldwide gross sum of movies by genre.,"['Worldwide_Gross', 'Major_Genre', 'null']",3,0,1,1,1,0,2,1,2,2,2,0,-1,0
+518,Movies,show me bar charts of average production budget by creative types grouped by content rating,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+557,Movies,"For each content rating, show a column chart of average production budget by creative type","['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+469,Movies,Make simple scatter plots of the Worldwide Gross versus Production Budget. Parameterize by Content Rating.,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+547,Movies,average length of movies,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+550,Movies,Total worldwide gross by genre and content rating,"['Worldwide_Gross', 'Content_Rating', 'null']",1,0,1,1,1,0,2,1,2,2,2,0,-1,0
+663,Movies,worldwide gross for each genre for each year 1995 to now,"['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+479,Movies,Show how worldwide grosses are related to production budgets by genre.,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+504,Movies,Worldwide Gross by Production Budget by Rating in Scatter plot format,"['Content_Rating', 'Production_Budget', 'Worldwide_Gross', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+566,Movies,Sort creative types by number of movies,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+493,Movies,What is the relationship between release year and average production budget?,"['Production_Budget', 'Release_Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+614,Movies,Show me how many movies were made by creative type,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+497,Movies,How many movies are there are of each creative type?,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+687,Movies,show me small multiple scatter plots of movie production budget versus gross worldwide where each multiple is a specific rating,"['Worldwide_Gross', 'Production_Budget', 'null']",3,1,1,1,0,1,2,2,2,2,1,2,-1,1
+567,Movies,Count of movies by creative type as a bar chart,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+473,Movies,Make a bar chart of the sum of Worldwide Gross as a function of the Major Genre.  | Split each bar by Content Rating. Put a legend of the Content Rating on the right. Alphabetize Content Rating.,"['Worldwide_Gross', 'Title', 'Major_Genre', 'Content_Rating', 'null']",1,0,1,1,1,0,4,3,4,4,4,0,2,0
+536,Movies,Show me count of movie runtimes,['null'],1,1,1,0,1,1,0,0,0,-1,0,0,-1,-1
+667,Movies,Relation between worldwide gross and production budget for each major genre,"['Major_Genre', 'Production_Budget', 'Worldwide_Gross', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+433,Movies,draw bars | show me running time,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+526,Movies,Show a count of movies binned by running time in 20-minute increments.,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+602,Movies,Display column graph of average production budget by creative type broken down by content rating,"['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+626,Movies,gross across genres regarding content rating,"['Major_Genre', 'Content_Rating', 'null']",1,0,1,1,1,0,2,1,2,2,2,-1,0,-1
+577,Movies,"Gross, year and genre as a line chart","['Major_Genre', 'Worldwide_Gross', 'Release_Year', 'null']",3,0,1,1,1,0,3,0,3,3,3,1,2,1
+552,Movies,"For each genre and rating, what is the total worldwide gross earnings?","['Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,2,-1,2,2,2,0,1,0
+484,Movies,Plot the average worldwide gross for each major genre. Sort alphabetically.,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+697,Movies,show me a scatter plot of rotten tomatoes ratings versus imdb ratings,"['Rotten_Tomatoes_Rating', 'IMDB_Rating', 'Title', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,1,0
+572,Movies,Average worldwide gross by genre,"['Worldwide_Gross', 'Major_Genre', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+519,Movies,Show a count of movies by creative type.,"['Creative_Type', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+671,Movies,Relationship of Rotten Tomatoes rating to IMDB rating.,"['Rotten_Tomatoes_Rating', 'Creative_Type', 'IMDB_Rating', 'Title', 'null']",0,1,1,1,1,1,4,4,4,4,4,4,2,0
+471,Movies,Make a simple scatter plot of Rotten Tomatoes Rating versus IMDB Rating.   | Use only major gridlines.,"['Rotten_Tomatoes_Rating', 'IMDB_Rating', 'Title', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,1,0
+681,Movies,Total Worldwide Gross by Major Genre with Content Rating labels,"['Content_Rating', 'Worldwide_Gross', 'Major_Genre', 'null']",1,0,1,1,1,0,3,0,3,3,3,1,2,1
+454,Movies,give me the number of movies by running time,"['Running_Time', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+482,Movies,"Show me the average production budget for each movie type, broken down by content rating.","['Creative_Type', 'Content_Rating', 'Production_Budget', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+666,Movies,"Cumulative gross for each content rating, by major genre","['Major_Genre', 'Content_Rating', 'null']",1,0,1,1,1,0,2,1,2,2,2,-1,0,-1
+589,Movies,scatter plot of IMDB rating versus Rotten tomatoes rating,"['Rotten_Tomatoes_Rating', 'Creative_Type', 'IMDB_Rating', 'Title', 'null']",0,1,1,1,1,1,4,4,4,4,4,4,2,0

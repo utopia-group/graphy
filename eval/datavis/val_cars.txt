@@ -1,0 +1,32 @@
+id,data,query,fields,plot,color,column,count,mean,sum,plot-field,color-field,column-field,count-field,mean-field,sum-field,x-field,y-field
+291,Cars,show frequency by country,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+207,Cars,For each country show the relationship between average acceleration and number of cylinders,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+419,Cars,Distribution of country,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+279,Cars,show me average acceleration based on cylinders and country of origin,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+297,Cars,Plot weight across acceleration for each country separately,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+381,Cars,Compare AVG ( MPG ) with Cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+376,Cars,where do the cars originate from?,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+307,Cars,"Draw axes for the average of Horsepower versus Year, colored by Origin","['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+347,Cars,Show weight in a histogram,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+165,Cars,"average horsepower over years, colored by origin","['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+362,Cars,"create a scatter plot of mpg versus displacement by model, color marks by origin | set origin colors to: europe, blue, japan, orange, usa, red","['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+414,Cars,Distribution of car weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+186,Cars,How many cylinders do cars manufactured in different countries have?,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+253,Cars,show how horsepower varies each year by origin,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+143,Cars,show me how the number of cylinders is related to miles per gallon,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+158,Cars,"plot displacement against mpg for individual models, colored by country","['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+133,Cars,Acceleration by weight scatter plot facet by origin,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+242,Cars,plot cylinders by average mpg,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+124,Cars,Cylinders average mpg,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+201,Cars,What is the relation between horsepower and acceleration,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+410,Cars,scatter plot MPG versus Displacement separated by country,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+256,Cars,show acceleration by cylinders by origin,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+159,Cars,"average acceleration by origin, with small multiples by cylinders","['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+365,Cars,How much do various cars weigh?,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+270,Cars,"For each cylinders, average acceleration Color by origin","['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+399,Cars,Average Horsepower per year and origin,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+363,Cars,create a scatter plot of acceleration versus horsepower by model,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+187,Cars,Group cars by countries and cylinders,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+218,Cars,Line chart showing Year on x-axis and Average Horsepower on y-axis. Different lines for different Origin,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+341,Cars,Show weight and acceleration in a XYplot | Add origin to groups,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+184,Cars,"Compare the number of models in USA, Japan and Europe ?","['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0

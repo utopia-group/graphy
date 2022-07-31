@@ -1,0 +1,1 @@
+plot(line),color(Creative_Type),x(Release_Year),mean(Production_Budget),field(Production_Budget),field(Release_Year),y(Production_Budget),field(Creative_Type)

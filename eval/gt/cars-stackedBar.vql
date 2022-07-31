@@ -1,0 +1,1 @@
+VISUALIZE Bar SELECT cars.Cylinders, count(*) FROM cars GROUP BY cars.Origin ORDER BY cars.Cylinders Asc

@@ -1,0 +1,1 @@
+VISUALIZE BAR Select cars.Origin, avg(cars.Acceleration) from cars GROUP BY cars.Origin COLUMN BY cars.Cylinders

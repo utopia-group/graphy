@@ -1,0 +1,1 @@
+VISUALIZE SCATTER SELECT movies.Rotten_Tomatoes_Rating, movies.IMDB_Rating FROM movies

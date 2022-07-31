@@ -1,0 +1,1 @@
+VISUALIZE line SELECT cars.Year, avg(cars.WEIGHT) from cars GROUP BY cars.Year ORDER BY cars.Year ASC

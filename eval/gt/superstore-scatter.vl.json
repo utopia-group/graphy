@@ -1,0 +1,23 @@
+{
+		"$schema": "https://vega.github.io/schema/vega-lite/v3.json",
+		"data": {
+			"url": "datasets/superstore.csv"
+		},
+		"mark": {
+			"type": "point",
+			"filled": true,
+			"opacity": 0.5,
+			"tooltip": null
+		},
+		"encoding": {
+			"x": {
+				"field": "Profit",
+				"type": "quantitative"
+			},
+			"y": {
+				"field": "Sales",
+				"type": "quantitative"
+			}
+		},
+		"ignore_orientation": true
+	}

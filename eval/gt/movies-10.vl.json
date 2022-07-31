@@ -1,0 +1,15 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "mark": {"type": "bar", "tooltip": true},
+    "encoding": {
+      "x": {"field": "Title", "type": "nominal", "aggregate": null},
+      "y": {"field": "Title", "type": "nominal", "aggregate": "count"}
+    },
+    "transform": [
+      {"filter": {"field": "Production_Budget", "equal": 200000000.0}}
+    ],
+    "data": {
+      "url": "https://raw.githubusercontent.com/nl4dv/nl4dv/master/examples/assets/data/movies-w-year.csv",
+      "format": {"type": "csv"}
+    }
+  }

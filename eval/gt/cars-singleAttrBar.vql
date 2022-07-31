@@ -1,0 +1,1 @@
+VISUALIZE Bar SELECT cars.Origin, count(*) FROM cars GROUP BY cars.Origin

@@ -1,0 +1,19 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "mark": {"type": "bar", "tooltip": true},
+    "encoding": {
+      "y": {
+        "field": "Worldwide_Gross",
+        "type": "quantitative",
+        "aggregate": "sum",
+        "axis": {"format": "s"}
+      },
+      "column": {"field": "Content_Rating", "type": "nominal", "aggregate": null},
+      "x": {"field": "Genre", "type": "nominal", "aggregate": null}
+    },
+    "transform": [],
+    "data": {
+      "url": "https://raw.githubusercontent.com/nl4dv/nl4dv/master/examples/assets/data/movies-w-year.csv",
+      "format": {"type": "csv"}
+    }
+  }

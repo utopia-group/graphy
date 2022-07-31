@@ -1,0 +1,30 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "mark": {"type": "line", "tooltip": false},
+  "encoding": {
+    "x": {
+      "field": "Release_Year",
+      "type": "nominal",
+      "aggregate": null,
+      "axis": {"format": ""}
+    },
+    "y": {
+      "field": "Production_Budget",
+      "type": "quantitative",
+      "aggregate": "mean",
+      "axis": {"format": "s"}
+    }
+  },
+  "transform": [
+    {
+      "filter": {"field": "Release_Year", "gt": "1994"}
+    },
+    {
+      "filter": {"field": "Release_Year", "lt": "2010"}
+    }
+  ],
+  "data": {
+    "url": "https://raw.githubusercontent.com/nl4dv/nl4dv/master/examples/assets/data/movies-w-year.csv",
+    "format": {"type": "csv"}
+  }
+}

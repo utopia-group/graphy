@@ -1,0 +1,37 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "mark": {"type": "bar", "tooltip": true},
+  "encoding": {
+     "x": {
+      "field": "Title",
+      "type": "nominal",
+      "aggregate": null,
+      "axis": {"format": ""}
+    },
+    "y": {
+      "field": "Worldwide_Gross",
+      "type": "quantitative",
+      "aggregate": "sum",
+      "axis": {"format": "s"}
+    }
+  },
+  "transform": [
+    {
+      "filter": {
+        "field": "Title",
+        "oneOf": [
+          "Harry Potter and the Order of the Phoenix",
+          "Harry Potter and the Half-Blood Prince",
+          "Harry Potter and the Prisoner of Azkaban",
+          "Harry Potter and the Goblet of Fire",
+          "Harry Potter and the Chamber of Secrets"
+        ]
+      }
+    }
+  ],
+  "data": {
+    "url": "https://raw.githubusercontent.com/nl4dv/nl4dv/master/examples/assets/data/movies-w-year.csv",
+    "format": {"type": "csv"}
+  },
+  "ignore_orientation": "True"
+}

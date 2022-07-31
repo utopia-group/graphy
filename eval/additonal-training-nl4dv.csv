@@ -1,0 +1,122 @@
+id,data,query,query-fixed,property,labeled,not supported
+1,movies,show me a scatter plot of budget and gross for romantic comedy movies released between 1990 and 2000,,explicit,Y,
+2,movies,show me the budget and gross for adventure movies released since 2000/1/1 as a scatterplot,,explicit,Y,
+3,movies,what was the total gross of the Harry Potter franchise as a barchart?,,explicit,Y,
+4,movies,show me distribution of gross as a strip plot,,explicit,Y,strip plot
+5,movies,visualize the distribution of budget as a histogram,,explicit,Y,
+6,movies,total budget across genres as a piechart,,explicit,Y,pie chart
+7,movies,show me an area chart of how comedy movies evolved over the years,,explicit,Y,
+8,movies,create a stripplot showing average gross across genres,,explicit,Y,strip plot
+9,movies,average production budget of different movie types over the years as a linechart,,explicit,Y,
+10,movies,show movies whose production budget equals 200M as a barchart,,explicit,Y,
+11,cars,Origin,,implicit,Y,multiple gts possible
+12,cars,Visualize mpg,,implicit,Y,multiple gts possible
+13,cars,Show mpg across origins,,implicit,Y,
+14,cars,Weight and acceleration,,implicit,Y,
+15,cars,Create a visualization with miles per gallon and horsepower,,implicit,Y,
+16,cars,Displacement Cylinders Acceleration,,implicit,Y,
+17,cars,Show me acceleration and horsepower across origins,,implicit,Y,
+18,cars,Visualize car weight and number of cylinders over the years,,implicit,Y,multiple gts possible
+19,cars,Create a chart showing mpg across origin over years,,implicit,Y,multiple gts possible
+20,soccer,show me a distribution of goals,,ambiguous,Y,
+21,soccer,correlate goals and salary,,ambiguous,Y,
+22,soccer,show me players with salaries more than 60M,,ambiguous,Y,unsure on gt
+23,soccer,which player from France has scored the highest goals,,ambiguous,Y,unsure on gt
+24,soccer,countries with the highest mean salary,,ambiguous,Y,
+25,soccer,players who scored between 5 and 10 goals and whose age is not more than 25,,ambiguous,Y,unsure on gt
+26,soccer,show me spain players under the age of 30 but with more than 5 goals,,ambiguous,Y,unsure on gt
+27,soccer,"show me club wise median salary for spain, portugal and germany players.",,ambiguous,Y,
+28,soccer,show me salaries of left footed players who play as a forward.,,ambiguous,Y,unsure of gt
+29,soccer,find the correlation between player goals and salaries across player foot.,,ambiguous,Y,
+30,soccer,show me a distribution of salaries across countries and player positions for right footed players.,,ambiguous,Y,rect
+31,soccer,show me a distribution of salaries across countries and player positions for right footed players and age greater than 30.,,ambiguous,Y,rect
+32,cars,create a histogram of mpg,,ambiguous,Y,
+33,cars,visualize acceleration as a boxplot,,ambiguous,Y,box plot
+34,cars,show origin as a bar chart,,ambiguous,Y,
+35,cars,visualize horsepower and displacement as a scatterplot,,ambiguous,Y,
+36,cars,show a linechart of horsepower over the years,,ambiguous,Y,
+37,cars,show a scatterplot of acceleration and mpg across origins,,ambiguous,Y,
+38,cars,show an area chart of how acceleration has evolved over the years across origin,,ambiguous,Y,
+39,cars,visualize origin and cylinders as a barchart,,ambiguous,Y,
+40,cars,visualize origin and cylinders as a scatter plot,,ambiguous,Y,
+41,cars,Bar chart of number of cars from each origin,,explicit,Y,
+42,cars,Bar chart of average acceleration for cars with each number of cylinders in each place of origin. Color by origin. Separate into multiple charts by number of cylinders.,,explicit,Y,
+43,cars,Scatterplot of displacement vs mpg. Color by origin.,,explicit,Y,
+44,cars,Bar chart of cylinders versus average mpg,,explicit,Y,
+45,cars,Show number of cars from each country,,ambiguous,Y,
+46,cars,Graph to show the acceleration for cars from different countries segregated based on number of cylinders,,ambiguous,Y,unsure on gt
+47,cars,Visualize the distribution of models by weight,,ambiguous,Y,box plot
+48,cars,Visualize the general trend of car model weights over the years,,ambiguous,Y,
+49,cars,Plot count of models by grouped by origin,,ambiguous,Y,
+50,cars,Visualize distribution of models by number of cyclinders grouped by origin,Visualize distribution of models by number of cylinders grouped by origin,ambiguous,Y,unsure on gt
+51,cars,Visualize average accelaration based on number of cyclinders a model has summed across different origins,Visualize average acceleration based on number of cylinders a model has summed across different origins,ambiguous,Y,
+52,cars,Bar graph to show number of cars from different Origins,,explicit,Y,
+53,cars,Stacked bar chart to show number of cylinders on X Axis and count of cars segregated country wise on Y Axis,,explicit,Y,NL weird
+54,cars,"plot displacement by mpg, color by origin",,ambiguous,Y,
+55,cars,Bar graph to show number of cylinders on X Axis and Average MPG on Y Axis,,explicit,Y,unusual
+56,cars,Scatter plot to show horsepower on X axis and Acceleration on Y Axis,,explicit,Y,
+57,cars,Plot average MPG by number of cylinders,,ambiguous,Y,
+58,cars,"create a stacked bar chart of the count of models by cylinder, group by origin",,explicit,Y,
+59,cars,create a line graph of average horsepower by year grouped by origin,,explicit,Y,
+60,cars,show how horsepower varies each year by origin,,ambiguous,Y,
+61,cars,"Histogram of weight, bin width of 500, min x axis 1500, max x axis 5500",,explicit,Y,* ?
+62,cars,"Bar chart, x axis origin, y axis count of rows",,explicit,Y,
+63,cars,Plot Year by AVG Weight,,ambiguous,Y,
+64,cars,"Coloring by Orign, Plot Displacement by MPG","Coloring by Origin, Plot Displacement by MPG",ambiguous,Y,
+65,cars,show cars produced by different origin in various cylinders,,ambiguous,Y,NL weird
+66,cars,"Bar chart, x axis cylinders, y axis mean MPG",,explicit,Y,unusual
+67,movies,"show me budget, gross, running time, and type for romantic comedy movies released between 1990 and 2000",,*,Y,table
+68,movies,plot worldwide gross over release year split by genre,,ambiguous,Y,
+69,movies,gross across genres regarding content rating,,ambiguous,Y,
+70,movies,budget vs gross income across movie genres,,ambiguous,Y,
+71,movies,Scatterplot of Worldwide Gross by Production Budget with different colors by major genre,,explicit,Y,
+72,movies,Line graph of average Production Budget across Release Year,,explicit,Y,
+73,movies,"Line graph of total Worldwide Gross by Major Genre, across Release Year",,explicit,Y,
+74,movies,Scatterplot of Rotten Tomatoes Rating by IMDB Rating,,explicit,Y,
+75,movies,"Bar chart of total worldwide gross by major genre, by content rating",,explicit,Y,
+76,movies,Count of movies by Creative Type,,ambiguous,Y,
+77,movies,Bar chart of average worldwide gross by major genre,,explicit,Y,
+78,movies,give me a bar chart of worldwide gross sum by major genres stacked by content ratings,,explicit,Y,
+79,movies,What was the average production budget of movies by year?,,ambiguous,Y,
+80,movies,Plot IMDB rating against Rotten Tomatoes rating.,,ambiguous,Y,
+81,movies,I want to see trend of production budget by the release year,,implicit,Y,
+82,movies,plot average worldwide growth over major genre,,ambiguous,Y,
+83,movies,Stack bar chart of SUM(worldwide gross) vs. movie genre based on content rating,,explicit,Y,
+84,movies,counts of movies by creative type,,ambiguous,Y,
+85,movies,Rating of movies in IMBD and Rotten Tomatoes,Rating of movies in IMDB and Rotten Tomatoes,implicit,Y,
+86,movies,how many films of each creative type,,ambiguous,Y,
+87,movies,Relation between worldwide gross and production budget for each major genre,,implicit,Y,
+88,movies,"average production budget by year, 1995 to 2009",,ambiguous,Y,
+89,movies,give me the number of movies by running time,,ambiguous,Y,
+90,movies,show me average production budget over release year,,ambiguous,Y,
+91,movies,plot average production budget over release year,,ambiguous,Y,
+92,movies,Show the total gross of movies by creative type as a piechart.,,explicit,Y,pie chart
+93,movies,stacked bar of genre and worldwide gross colored by content rating,,ambiguous,Y,
+94,movies,give me line charts of worldwide gross over year by major genres,,ambiguous,Y,
+95,movies,what's the production budget for movies in different years?,,ambiguous,Y,
+96,movies,histogram of running time,,explicit,Y,
+97,superstore,draw a scatterplot of sales vs profit where sales is on the x-axis and points are colored by region,,explicit,Y,
+98,superstore,draw a bar chart of count by sub-category,,explicit,Y,
+99,superstore,"by ship mode, draw a bar chart of average profit split by segment",,explicit,Y,NL wierd
+100,superstore,"make a stacked bar chart summing profit across region, where profit is colored by ship status",,explicit,Y,NL wierd
+101,superstore,"make a bar chart of avgerage profit by state, with state on x axis.","make a bar chart of average profit by state, with state on x axis.",explicit,Y,
+102,superstore,how much is the profit for sales for each,,implicit,Y,NL wierd
+103,superstore,What is the average profit of different segments on the ship modes of transport,,ambiguous,Y,
+104,superstore,What is the average profit of each country,,ambiguous,Y,
+105,superstore,summarize the total profit by region using a stacked bar plot,,explicit,Y,NL wierd
+106,superstore,Scatterplot profit vs sales with color indicating geographic region of the U.S.,,explicit,Y,
+107,superstore,Scatterplot of sales vs. profit,,explicit,Y,
+108,superstore,"For each data element, draw a circle at (its sales, profit) with the proper color by the region",,explicit,Y,unusual
+109,superstore,Bar Graph average Profit by State,,explicit,Y,
+110,superstore,Scatterplot Region X = Sales Y = Profit,,explicit,Y,unusual
+111,superstore,Stacked Barchart Ship Status X=Region Y=SUM(Profit),,explicit,Y,unusual
+112,superstore,Bar Chart Count by Sub-Category,,explicit,Y,
+113,superstore,Create bar chart based on state and AVG(Profit),,explicit,Y,unusual
+114,superstore,show a line chart of semi sales by category,,,?,NL wierd
+115,superstore,Ship Mode Bar Chart AVG(Profit) by Segment,,explicit,Y,multiple gts possible
+116,superstore,Show a bar graph by region showing the various ship status,,ambiguous,Y,
+117,superstore,Show correlation between sales and profit,,implicit,Y,
+118,superstore,"show profit vs sales as scatter plot, use a different color for each region",,explicit,Y,
+119,superstore,show the average profit by state,,ambiguous,Y,
+120,superstore,Can you create a graph showing sales and profit by region?,,implicit,Y,
+121,superstore,Show me by region sales and profits for all products bought by Gary Hansen,,ambiguous,Y,unsure on gt

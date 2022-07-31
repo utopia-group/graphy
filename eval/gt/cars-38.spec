@@ -1,0 +1,1 @@
+x(Year),color(Origin),field(Acceleration),field(Year),mean(Acceleration),y(Acceleration),field(Origin),plot(area)

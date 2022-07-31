@@ -1,0 +1,1 @@
+VISUALIZE LINE SELECT movies.Release_Year, movies.Worldwide_Gross FROM movies GROUP BY movies.Major_Genres ORDER BY movies.Release_Year ASC

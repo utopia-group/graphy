@@ -1,0 +1,33 @@
+{
+		"$schema": "https://vega.github.io/schema/vega-lite/v3.json",
+		"data": {
+			"url": "datasets/movies.csv"
+		},
+		"mark": {
+			"type": "line",
+			"tooltip": null
+		},
+		"encoding": {
+			"x": {
+				"timeUnit": "year",
+				"field": "Release_Year",
+				"type": "temporal",
+				"axis": {
+					"title": "Release_Year"
+				}
+			},
+			"y": {
+				"aggregate": "sum",
+				"field": "Worldwide_Gross",
+				"type": "quantitative",
+				"axis": {
+					"title": "SUM (Worldwide_Gross)",
+					"format": "~s"
+				}
+			},
+			"color": {
+				"field": "Major_Genre",
+				"type": "nominal"
+			}
+		}
+	}

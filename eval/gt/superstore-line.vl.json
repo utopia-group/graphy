@@ -1,0 +1,28 @@
+{
+		"$schema": "https://vega.github.io/schema/vega-lite/v3.json",
+		"data": {
+			"url": "datasets/superstore.csv"
+		},
+		"mark": {
+			"type": "line",
+			"tooltip": null
+		},
+		"encoding": {
+			"x": {
+				"timeUnit": "monthyear",
+				"field": "Order_Date",
+				"type": "temporal",
+				"axis": {
+					"title": "Order_Date"
+				}
+			},
+			"y": {
+				"aggregate": "sum",
+				"field": "Sales_Forecast",
+				"type": "quantitative",
+				"axis": {
+					"title": "SUM (Sales_Forecast)"
+				}
+			}
+		}
+	}

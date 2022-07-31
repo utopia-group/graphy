@@ -1,0 +1,1 @@
+plot(line),field(Weight),x(Year),field(Year),y(Weight),mean(Weight)

@@ -1,0 +1,72 @@
+msgpack~=1.0.2
+spacy~=3.0.5
+transformers~=4.2.2
+torch~=1.8.1
+pandas~=1.1.5
+inflect~=5.3.0
+
+# solver
+z3-solver
+
+# draco
+ansunit
+black
+flask===1.1.1
+flask-cors
+pandas==0.25.3
+clyngor-with-clingo
+jsonschema~=3.2.0
+mypy
+pytest~=6.2.2
+pytest-cov
+scipy~=1.5.4
+
+# falx
+vega~=3.4.0
+dpath
+jsonschema
+namedlist~=1.8
+
+# nl2sql
+revtok==0.0.3
+# tqdm==4.27
+# torchvision==0.2.1
+mo-future>=2.20
+pyparsing==2.3.0
+wandb~=0.10.33
+n2w
+matplotlib
+# transformers==2.8.0
+asciitree~=0.3.3
+apex
+nltk==3.4.5
+rapidfuzz~=1.4.1
+
+## wikisql
+records~=0.5.3
+babel~=2.9.0
+tabulate~=0.8.9
+scipy
+
+## demo use only
+sqlalchemy~=1.4.3
+
+# nl4dv
+fuzzywuzzy~=0.18.0
+#pytest~=3.10.1
+#pytest-cov~=2.6.0
+python-Levenshtein~=0.12.0
+si-prefix~=1.2.2
+ipython
+
+tqdm~=4.27.0
+numpy~=1.17.0
+pyyaml~=5.4.1
+click~=7.1.2
+levenshtein~=0.12.0
+requests~=2.25.1
+clingo~=5.3.0
+dataclasses~=0.8
+clyngor~=0.3.31
+attrs~=20.3.0
+setuptools~=52.0.0

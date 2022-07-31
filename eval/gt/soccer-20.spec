@@ -1,0 +1,1 @@
+count(Goals),x(Goals),plot(bar),y(Goals),field(Goals)

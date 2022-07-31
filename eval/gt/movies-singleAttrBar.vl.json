@@ -1,0 +1,28 @@
+{
+		"$schema": "https://vega.github.io/schema/vega-lite/v3.json",
+		"data": {
+			"url": "datasets/movies.csv"
+		},
+		"mark": {
+			"type": "bar",
+			"tooltip": null
+		},
+		"encoding": {
+			"x": {
+				"field": "Creative_Type",
+				"type": "nominal",
+				"sort": {
+					"encoding": "y",
+					"order": "descending"
+				}
+			},
+			"y": {
+				"field": "Creative_Type",
+				"aggregate": "count",
+				"type": "quantitative",
+				"axis": {
+					"title": "COUNT"
+				}
+			}
+		}
+	}

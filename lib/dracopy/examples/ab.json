@@ -1,0 +1,10 @@
+{
+  "data": {
+    "url": "data/ab.csv"
+  },
+  "mark": "bar",
+  "encodings": [
+    {"channel": "x"},
+    {"channel": "y", "aggregate": "max", "type": "quantitative"}
+  ]
+}

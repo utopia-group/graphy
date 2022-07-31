@@ -1,0 +1,1 @@
+median(Salary),plot(bar),x(Club),y(Salary),field(Salary),filter(Country = Spain OR Country = Portugal OR Country = Germany),field(Club)

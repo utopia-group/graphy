@@ -1,0 +1,1 @@
+filter(Title = Harry Potter and the Order of the Phoenix OR Title = Harry Potter and the Half-Blood Prince OR Title = Harry Potter and the Prisoner of Azkaban OR Title = Harry Potter and the Goblet of Fire OR Title = Harry Potter and the Chamber of Secrets),plot(bar),x(Title),y(Worldwide_Gross),field(Title),sum(Worldwide_Gross),field(Worldwide_Gross)

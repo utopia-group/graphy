@@ -1,0 +1,1 @@
+plot(bar),y(Name),field(Name),filter(Salary > 60000000.0),field(Salary),x(Salary)

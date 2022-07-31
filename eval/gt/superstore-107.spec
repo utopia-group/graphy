@@ -1,0 +1,1 @@
+y(Sales),x(Profit),field(Sales),plot(scatter),field(Profit)

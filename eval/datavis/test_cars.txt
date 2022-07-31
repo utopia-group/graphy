@@ -1,0 +1,279 @@
+id,data,query,fields,plot,color,column,count,mean,sum,plot-field,color-field,column-field,count-field,mean-field,sum-field,x-field,y-field
+193,Cars,How many cars do each country manufacture?,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+126,Cars,Is there a correlation between acceleration and horsepower?,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+237,Cars,"Histogram of weight, bin width of 500, min x-axis 1500, max x-axis 5500","['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+336,Cars,"chart each model MPG by displacement, and identify country of origin","['Origin', 'MPG', 'Model', 'Displacement', 'null']",0,0,1,1,1,1,4,0,4,4,4,4,3,1
+295,Cars,Show distribution of cylinders by country,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+377,Cars,How has AVG ( Horsepower ) evolved over time? | Segregate it by the car origin.,"['Origin', 'Horsepower', 'null']",3,0,1,1,0,1,2,0,2,2,1,2,-1,1
+177,Cars,vertical bar chart of average mpg by cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+420,Cars,Average acceleration by cylinders and country of origin in separate panels,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+210,Cars,Graph to show the acceleration for cars from different countries segregated based on number of cylinders,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+175,Cars,"vertical stacked bar of number of models by cylinders, colored by origin","['Origin', 'Cylinders', 'Model', 'null']",1,0,1,0,1,1,3,0,3,1,3,3,1,1
+395,Cars,Count by Weight Buckets,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+289,Cars,plot average weight across time,"['Weight', 'null']",3,1,1,1,0,1,1,1,1,1,0,1,-1,0
+366,Cars,What is the range of weights for all cars?,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+266,Cars,show cars produced by different origin in various cylinders,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+162,Cars,"scatter plot weight by acceleration for individual models, small multiples by origin","['Origin', 'Acceleration', 'Model', 'Weight', 'null']",0,1,0,1,1,1,4,4,0,4,4,4,3,1
+246,Cars,plot weight histogram,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+152,Cars,Please show me a histogram of weights with 500 intervals.,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+427,Cars,How has horsepower changed over time in each region?,"['Horsepower', 'Year', 'null']",3,0,1,1,0,1,2,-1,2,2,0,2,1,0
+239,Cars,plot displacement by mpg | color by origin,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+125,Cars,Line chart avg horsepower per year Color by origin,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+208,Cars,Give different scatter plots of acceleration versus weight for each country,"['Acceleration', 'Weight', 'null']",0,1,0,1,1,1,2,2,-1,2,2,2,1,0
+315,Cars,Draw the axes for AVG ( Weight ) versus Year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+262,Cars,show scatter plot of acceleration and horsepower,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+316,Cars,count by origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+331,Cars,"Show me each car's acceleration by weight, and split out separate charts for each country","['Acceleration', 'Weight', 'null']",0,1,0,1,1,1,2,2,-1,2,2,2,1,0
+284,Cars,show me acceleration by weight and by country of origin,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+138,Cars,Which countries have the highest acceleration for cars of different cylinders?,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+142,Cars,show me the categorization of weights,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+141,Cars,show me the number of cars per country,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+160,Cars,"bars of avg acceleration, colored by origin, with small multiples by cylinders","['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+311,Cars,Plot ROWCOUNT versus Origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+393,Cars,Count Rows by Origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+216,Cars,"3 scatter plots, one each for every Europe, Japan, and USA, to show weight on x-axis and Acceleration on y-axis","['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+426,Cars,"For each region, how does a car's MPG vary with displacement?","['MPG', 'Displacement', 'null']",0,0,1,1,1,1,2,-1,2,2,2,2,1,0
+409,Cars,scatter plot acceleration versus horsepower,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+375,Cars,correlate MPG and Displacement of cars | color the points by the car's origin,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+249,Cars,show acceleration of cars by weight for different origin,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+308,Cars,"Draw axes for AVG ( Horsepower ) versus Year, colored by Origin","['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+392,Cars,Bar chart of number of cars from each origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+335,Cars,what is the average weight of cars over time,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+372,Cars,create a line graph of average weight by year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+137,Cars,Acceleration by horsepower points,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+147,Cars,What is the correlation between displacement and MPG of cars with different origins?,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+421,Cars,Average MPG by cylinders histogram,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+385,Cars,Bar chart of number of cylinders. Stack bar charts by origin,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+415,Cars,Histogram of car weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+357,Cars,"Show me a histogram of weight, rounded to 500","['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+301,Cars,Plot MPG versus Displacement colored by Origin,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+139,Cars,Show me weight over year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+254,Cars,show mpg for each cylinder type,"['MPG', 'null']",1,1,1,1,0,1,1,1,1,1,0,1,-1,0
+407,Cars,chart average MPG to cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+413,Cars,How does MPG vary by the number of cylinders in a car?,"['Model', 'MPG', 'Cylinders', 'null']",1,1,1,1,0,1,3,3,3,3,1,3,2,1
+179,Cars,count of models by origin,"['Origin', 'Model', 'null']",1,1,1,0,1,1,2,2,2,0,2,2,0,0
+169,Cars,line chart of average weight over year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+302,Cars,Plot acceleration versus Horsepower,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+212,Cars,Bar graph to show number of cylinders on x-axis and Average MPG on y-axis,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+157,Cars,"how does displacement relate to mpg for individual models, partitioned by country","['Model', 'MPG', 'Displacement', 'null']",0,0,1,1,1,1,3,-1,3,3,3,3,2,1
+168,Cars,average weight over time,"['Weight', 'null']",3,1,1,1,0,1,1,1,1,1,0,1,-1,0
+215,Cars,Line chart to show average weight of cars based on the year in which they were produced,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+288,Cars,Show average mpg for each type of cylinder,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+269,Cars,"For each cylinders, average acceleration per origin","['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+428,Cars,what is the breakdown of cars by the number of cylinders in each region?,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+343,Cars,Show Horsepower by Acceleration in a XYplot,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+317,Cars,average weight by year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+248,Cars,Plot count of cars by origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+326,Cars,"Coloring by Origin, Plot Displacement by MPG","['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+127,Cars,How many heavy cars are in the dataset?,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+264,Cars,count of cars by origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+304,Cars,Plot AVG ( MPG ) versus Cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+229,Cars,Plot average MPG by number of cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+192,Cars,Compare car cylinder count against acceleration across countries,"['Acceleration', 'Cylinders', 'null']",1,0,0,1,0,1,2,-1,1,2,0,2,-1,0
+324,Cars,"Faceting on Origin, plot Weight by Acceleration","['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+202,Cars,Through a visualization show average horsepower of cars for each country from 1997 to 2011,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+130,Cars,How does displacement relate to fuel economy for cars from Europe versus USA?,"['Origin', 'Displacement', 'null']",0,0,1,1,1,1,2,0,2,2,2,2,1,-1
+180,Cars,bar chart of number of models by origin,"['Origin', 'Model', 'null']",1,1,1,0,1,1,2,2,2,0,2,2,0,0
+197,Cars,How does mileage relate to cylinder count?,"['Cylinders', 'null']",1,1,1,1,0,1,1,1,1,1,-1,1,0,-1
+320,Cars,horsepower by acceleration,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+411,Cars,How does acceleration vary by weight for cars from different regions?,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+330,Cars,Average MPG based on cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+263,Cars,show number of cars produced by each country,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+333,Cars,each car's acceleration by horsepower,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+195,Cars,What's the mileage for cars based on the number of cylinders present?,"['Cylinders', 'Displacement', 'null']",1,1,1,1,0,1,2,2,2,2,-1,2,0,-1
+252,Cars,visualize in scatter plot the Displacement and MPG by origin,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+401,Cars,Average MPG by cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+191,Cars,Histogram of cars by weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+122,Cars,Scatter plot mpg versus displacement color by origin,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+234,Cars,"Bar chart, x-axis cylinders, y-axis mean MPG","['Model', 'MPG', 'Cylinders', 'null']",1,1,1,1,0,1,3,3,3,3,1,3,2,1
+339,Cars,"Show average horsepower over time, separated by country of origin","['Origin', 'Horsepower', 'null']",3,0,1,1,0,1,2,0,2,2,1,2,-1,1
+222,Cars,Trend for average horsepower over time across different origin,"['Origin', 'Horsepower', 'null']",3,0,1,1,0,1,2,0,2,2,1,2,-1,1
+418,Cars,Histogram with cylinders on x-axis and bar colored by country,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+318,Cars,count by cylinders and origin,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+389,Cars,Scatter plot of weight versus acceleration. Break into multiple scatter plot by origin,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+425,Cars,"how does MPG compare to displacement, broken out by region?","['MPG', 'Displacement', 'null']",0,0,1,1,1,1,2,-1,2,2,2,2,1,0
+359,Cars,acceleration versus horsepower,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+232,Cars,"Scatter plot, x-axis horsepower, y-axis acceleration","['Horsepower', 'Acceleration', 'Cylinders', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,0,1
+134,Cars,"For each origin, acceleration by weight scatter plot","['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+244,Cars,plot origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+209,Cars,Show number of cars from each country,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+155,Cars,Please show me how the average weights change in a timeline.,"['Weight', 'null']",3,1,1,1,0,1,1,1,1,1,0,1,-1,0
+358,Cars,Show me average weight trended over ascending years,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+356,Cars,"Show me count of models grouped by cylinders, stacked by Origin","['Origin', 'Cylinders', 'Model', 'null']",1,0,1,0,1,1,3,0,3,1,3,3,1,1
+172,Cars,"histogram of weight, number of bins 8","['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+255,Cars,how mpg varies for different cylinder type,"['MPG', 'null']",1,1,1,1,0,1,1,1,1,1,0,1,-1,0
+394,Cars,Average Acceleration by Engine Cylinders and Origin,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+151,Cars,Please show me the distribution of weights by 500 interval.,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+200,Cars,Show the scatter plot between horse power and acceleration,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+417,Cars,A scatter plot of horsepower on x-axis and Acceleration on y-axis,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+183,Cars,vertical bar chart of number of models by origin,"['Origin', 'Model', 'null']",1,1,1,0,1,1,2,2,2,0,2,2,0,0
+337,Cars,"show average acceleration by country of origin, with separate charts for # of cylinders","['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+128,Cars,Count by origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+412,Cars,What is the average MPG for cars with different cylinders?,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+374,Cars,show me a distribution of cylinders grouped by car origin,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+235,Cars,"Scatter plot, x-axis weight, y-axis acceleration, facet by origin","['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+261,Cars,acceleration to horsepower,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+328,Cars,Plot a histogram of Weight with a bin width of 500,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+344,Cars,"Show cylinders by COUNT ( Model ) in a bar chart', 'Add origin to legend","['Origin', 'Cylinders', 'Model', 'null']",1,0,1,0,1,1,3,0,3,1,3,3,1,1
+176,Cars,bar chart of average mpg by cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+406,Cars,show a stacked bar chart of number of vehicles to number for cylinders grouped by country,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+321,Cars,cylinders by acceleration,"['Acceleration', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,-1,2,1,-1
+220,Cars,Visualize average acceleration based on number of cylinders a model has summed across different origins,"['Origin', 'Acceleration', 'Cylinders', 'Model', 'null']",1,0,0,1,0,1,4,0,2,4,1,4,0,1
+145,Cars,How do the horsepowers of the cars from different regions change with years?,"['Horsepower', 'Year', 'null']",3,0,1,1,0,1,2,-1,2,2,0,2,1,0
+319,Cars,count by weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+287,Cars,Plot average mpg against cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+305,Cars,"Plot the average of Acceleration, grouped by Cylinders, colored by Origin","['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+185,Cars,Does higher horsepower mean lower acceleration?,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+383,Cars,Scatter plot of horsepower versus acceleration,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+403,Cars,scatter plot acceleration versus weight per country,"['Origin', 'Acceleration', 'Year', 'Weight', 'null']",0,1,0,1,1,1,4,4,0,4,4,4,3,1
+223,Cars,Visualize distribution of models by number of cylinders grouped by origin,"['Origin', 'Cylinders', 'Model', 'null']",1,0,1,0,1,1,3,0,3,1,3,3,1,1
+323,Cars,Group by Origin | plot Year by AVG Horsepower,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+265,Cars,show weight by count,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+364,Cars,What is the distribution of weight across all cars?,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+278,Cars,show me the average weight in a line chart,"['Weight', 'null']",3,1,1,1,0,1,1,1,1,1,0,1,-1,0
+355,Cars,"Show me the Average Horsepower per origin, trended by ascending years","['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+397,Cars,Avg weight by Year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+190,Cars,Show distribution of cars by weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+196,Cars,Does higher cylinder count mean mean lower mileage?,"['Horsepower', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,-1,2,1,-1
+350,Cars,Show me Average MPG per Cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+378,Cars,Compare AVG ( Acceleration ) with Cylinders. | Segregate the cylinders by their origin.,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+227,Cars,Visualize the distribution of models by weight into 8 buckets,"['Model', 'Weight', 'null']",1,1,1,0,1,1,2,2,2,1,2,2,1,1
+361,Cars,create a histogram of the count of models by origin,"['Origin', 'Model', 'null']",1,1,1,0,1,1,2,2,2,0,2,2,0,0
+314,Cars,Draw the axes for the average of Weight versus Year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+292,Cars,Show distribution by counties,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+221,Cars,Visualize acceleration versus weight across distribution across different origins,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+170,Cars,line chart of average weight over time,"['Weight', 'null']",3,1,1,1,0,1,1,1,1,1,0,1,-1,0
+290,Cars,show time series plot of average weight,"['Weight', 'null']",3,1,1,1,0,1,1,1,1,1,0,1,-1,0
+334,Cars,how many models are produced by each country,"['Origin', 'Model', 'null']",1,1,1,0,1,1,2,2,2,0,2,2,0,0
+205,Cars,Show a bar chart showing weight distribution of cars,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+217,Cars,One scatter plot to show displacement on x-axis and MPG on y-axis | Scatter points to be different for each change in value of field Origin,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+423,Cars,How does acceleration behave compared to horsepower?,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+430,Cars,What is the average weight of cars by model year?,"['Model', 'Year', 'Weight', 'null']",3,1,1,1,0,1,3,3,3,3,2,3,1,2
+194,Cars,Histogram of car models by country,"['Origin', 'Model', 'null']",1,1,1,0,1,1,2,2,2,0,2,2,0,0
+148,Cars,count the number of cars based on their origins.,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+178,Cars,number of models by origin,"['Origin', 'Model', 'null']",1,1,1,0,1,1,2,2,2,0,2,2,0,0
+188,Cars,Weight of cars grouped by year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+274,Cars,Histogram by weight | Count of binned weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+340,Cars,Show year and AVG ( Horsepower ) in line chart | Add origin to legend,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+228,Cars,plot the distribution of acceleration versus horsepower,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+268,Cars,How has horsepower changed over time by country?,"['Origin', 'Horsepower', 'null']",3,0,1,1,0,1,2,0,2,2,1,2,-1,1
+283,Cars,show me MPG by displacement and origin in scatter chart,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+167,Cars,average weight over year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+131,Cars,Which cylinder cars have the highest fuel economy?,"['Cylinders', 'null']",1,1,1,1,0,1,1,1,1,1,-1,1,0,-1
+309,Cars,"Plot Acceleration versus Weight, grouped by Origin","['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+146,Cars,The distribution of the number of cylinders of cars based on different origins.,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+257,Cars,how acceleration varies with number of cylinders by origin,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+144,Cars,show me how weight is related to acceleration per country,"['Acceleration', 'Weight', 'null']",0,1,0,1,1,1,2,2,-1,2,2,2,1,0
+384,Cars,Line graph of year versus average horsepower by origin,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+371,Cars,create a histogram of model count by weight,"['Model', 'Weight', 'null']",1,1,1,0,1,1,2,2,2,1,2,2,1,1
+349,Cars,Show cylinders and AVG ( MPG ) in a bar chart,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+312,Cars,Plot Count ( cars ) versus Origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+199,Cars,what is the average MPG for different cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+352,Cars,Show me Acceleration versus Weight broken out by Origin,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+346,Cars,Show me Average Acceleration grouped by cylinders and broken out by Origin,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+342,Cars,Show Cylinders and AVG ( Acceleration ) in bar chart | Add Cylinders to groups | Add Origin to legend,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+398,Cars,Acceleration distribution by Weight and Origin,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+273,Cars,Line chart average weight over year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+203,Cars,Show the relationship between number of cars and cylinders in each country,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+313,Cars,Plot Count of cars versus Weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+280,Cars,show me the count of cars by country of origin in bar chart,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+382,Cars,How does AVG ( Weight ) evolve over the years?,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+422,Cars,How does acceleration change with horsepower?,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+230,Cars,"Mean acceleration group by Cylinders and Origin, x-axis Origin, Color Origin, Each plot Cylinders","['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+206,Cars,"for country in USA, JAPAN and EUROPE show MPG versus Displacement","['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+136,Cars,Acceleration by horsepower scatter plot,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+149,Cars,what is the correlation between horsepower and acceleration?,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+251,Cars,show how MPG varies with displacement by different origin,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+272,Cars,Average weight over year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+298,Cars,Show distribution of weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+171,Cars,"histogram of weight, bin size 500","['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+345,Cars,show year and avg ( Weight ) in a line chart,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+300,Cars,"Show average horsepower across cylinders, each country shown separately","['Origin', 'Cylinders', 'Horsepower', 'null']",1,0,0,1,0,1,3,0,1,3,-1,3,0,-1
+224,Cars,Plot count of models by grouped by origin,"['Origin', 'Model', 'null']",1,1,1,0,1,1,2,2,2,0,2,2,0,0
+388,Cars,Scatter plot of displacement versus mpg. Color by origin.,"['Origin', 'MPG', 'Model', 'Displacement', 'null']",0,0,1,1,1,1,4,0,4,4,4,4,3,1
+294,Cars,"For each country, show time series of average horsepower","['Origin', 'Horsepower', 'null']",3,0,1,1,0,1,2,0,2,2,1,2,-1,1
+258,Cars,show weight by year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+247,Cars,plot weight versus acceleration by origin,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+354,Cars,Show me MPG versus Displacement distinguished by Origin,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+424,Cars,How many cars are from each region?,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+156,Cars,"Please show me the average accelerations of cars in multiple bar charts aggregated by the number of cylinders. In each bar chart, different bars represent different origins.","['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+367,Cars,create a bar chart showing the average MPG grouped by cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+310,Cars,Plot Count versus Origin,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+338,Cars,"total number of models based on number of cylinders, with breakdown by country","['Model', 'Cylinders', 'null']",1,0,1,0,1,1,2,-1,2,1,2,2,1,1
+276,Cars,show me the origin country by cylinder count in a bar chart,"['Origin', 'null']",1,0,1,0,1,1,1,0,1,-1,1,1,-1,-1
+408,Cars,chart count to country,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+431,Cars,How has the average weight of cars changed over the years?,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+236,Cars,"Bar chart, x-axis origin, y-axis count of rows","['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+282,Cars,show me average Miles Per Gallon by cylinders in a bar chart,"['Cylinders', 'null']",1,1,1,1,0,1,1,1,1,1,-1,1,0,-1
+396,Cars,"Count by Cylinders and Origin, Stacked","['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+219,Cars,Bar graph to show number of cars from different Origins,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+329,Cars,"Group by Origin | Faceting on Cylinder, plot Cylinder by AVG Acceleration","['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+213,Cars,Bar graph to show weight on x-axis and count of cars on y-axis,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+245,Cars,plot cylinder histogram | stack by origin,"['Origin', 'null']",1,0,1,0,1,1,1,0,1,-1,1,1,-1,-1
+400,Cars,Horsepower distribution by acceleration,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+123,Cars,Cylinders count bar chart Color by origin,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+380,Cars,Correlate Acceleration and Horsepower.,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+225,Cars,Visualize distribution of MPG versus displacement across origin,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+429,Cars,How many cars have various numbers of cylinders in each region?,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+250,Cars,show scatter plot of cars acceleration to weight by origin,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+277,Cars,Sum weight in a bar chart,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+132,Cars,Acceleration by weight scatter plot per origin,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+402,Cars,chart average weight over time,"['Weight', 'null']",3,1,1,1,0,1,1,1,1,1,0,1,-1,0
+373,Cars,show me the distribution of car weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+325,Cars,Group by Cylinders | Plot Cylinders by AVG MPG,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+348,Cars,Show Me Acceleration versus Horsepower For each Model,"['Horsepower', 'Acceleration', 'Model', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,0,1
+275,Cars,"scatter(displacement, MPG) | color by Origin","['Origin', 'MPG', 'Model', 'Displacement', 'null']",0,0,1,1,1,1,4,0,4,4,4,4,3,1
+322,Cars,Europe acceleration by weight | japan | usa,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+153,Cars,Please show me multiple correlation charts of weights and accelerations of cars based on their origins.,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+306,Cars,"Plot the Count of cars versus Cylinders, colored by Origin, stacked by Origin","['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+163,Cars,how does horsepower relate to acceleration for individual car models,"['Horsepower', 'Acceleration', 'Model', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,0,1
+405,Cars,chart number of vehicles by weight in buckets of 500,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+299,Cars,Show histogram of weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+182,Cars,vertical bar chart of count of models by origin,"['Origin', 'Model', 'null']",1,1,1,0,1,1,2,2,2,0,2,2,0,0
+360,Cars,"create scatter plot of weight versus acceleration by car model, group by origin","['Origin', 'Acceleration', 'Model', 'Weight', 'null']",0,1,0,1,1,1,4,4,0,4,4,4,3,1
+135,Cars,Which countries have the most cars in this dataset?,"['Origin', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+189,Cars,Compare acceleration versus weight across different countries,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+351,Cars,Show me count of models by origin,"['Origin', 'Model', 'null']",1,1,1,0,1,1,2,2,2,0,2,2,0,0
+387,Cars,Bar chart of cylinders versus average mpg,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+386,Cars,Bar chart of weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+285,Cars,Show model count by origin in a bar chart,"['Origin', 'Model', 'null']",1,1,1,0,1,1,2,2,2,0,2,2,0,0
+303,Cars,Plot the average of MPG versus Cylinders,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+204,Cars,What is the average weight distribution of cars between 1974 and 1980,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+231,Cars,"Stacked bar chart, x-axis cylinder, y-axis count, color by Origin","['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+416,Cars,Scatter plot of displacement by MPG colored by country,"['MPG', 'Displacement', 'null']",0,0,1,1,1,1,2,-1,2,2,2,2,1,0
+154,Cars,Please show me a bar chart with the x-axis representing the number of cylinders and the y-axis depicting the average MPG.,"['MPG', 'Cylinders', 'null']",1,1,1,1,0,1,2,2,2,2,0,2,1,0
+150,Cars,Is there a correlation between cars' horsepower and acceleration?,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+214,Cars,Stacked bar chart to show number of cylinders on x-axis and count of cars  segregated country wise on y-axis,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+327,Cars,Plot Year by AVG Weight,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+140,Cars,show me horsepower versus acceleration,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+332,Cars,Histogram of number of cars by weight,"['Weight', 'null']",1,1,1,0,1,1,1,1,1,0,1,1,0,0
+260,Cars,how is acceleration related to horsepower,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+353,Cars,Show me MPG versus Displacement colored by Origin,"['Origin', 'Displacement', 'MPG', 'null']",0,0,1,1,1,1,3,0,3,3,3,3,1,2
+379,Cars,Show a scatter plot of acceleration versus Weight | Facet it by Origin.,"['Origin', 'Weight', 'Acceleration', 'null']",0,1,0,1,1,1,3,3,0,3,3,3,1,2
+173,Cars,"stacked bar of count of models by cylinders, colored by origin","['Origin', 'Cylinders', 'Model', 'null']",1,0,1,0,1,1,3,0,3,1,3,3,1,1
+281,Cars,should me acceleration compared to horsepower in a scatter chart,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+293,Cars,Plot average horsepower across time by countries,"['Horsepower', 'Year', 'null']",3,0,1,1,0,1,2,-1,2,2,0,2,1,0
+198,Cars,bar chart for mpg versus cylinders,"['Model', 'MPG', 'Cylinders', 'null']",1,1,1,1,0,1,3,3,3,3,1,3,2,1
+391,Cars,Line graph of year versus average weight,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+370,Cars,create a line graph of average horsepower by year grouped by origin,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+271,Cars,Have cars gotten lighter over time?,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+166,Cars,"average horsepower over time, colored by origin","['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+233,Cars,"Scatter plot, x-axis Displacement, y-axis MPG, Color by Origin","['Origin', 'MPG', 'Model', 'Displacement', 'null']",0,0,1,1,1,1,4,0,4,4,4,4,3,1
+286,Cars,Show displacement and MPG in a XY chart | Add origin in legend,"['Origin', 'MPG', 'Model', 'Displacement', 'null']",0,0,1,1,1,1,4,0,4,4,4,4,3,1
+368,Cars,"create a stacked bar chart of the count of models by cylinder, group by origin","['Origin', 'Model', 'null']",1,0,1,0,1,1,2,0,2,-1,2,2,-1,-1
+181,Cars,bar chart of count of models by origin,"['Origin', 'Model', 'null']",1,1,1,0,1,1,2,2,2,0,2,2,0,0
+267,Cars,Show me small multiples of acceleration by weight for each country.,"['Acceleration', 'Weight', 'null']",0,1,0,1,1,1,2,2,-1,2,2,2,1,0
+238,Cars,plot year by average horsepower | color by origin,"['Origin', 'Horsepower', 'Year', 'null']",3,0,1,1,0,1,3,0,3,3,1,3,2,1
+243,Cars,"plot separately cylinders by average acceleration, color by origin","['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+161,Cars,"how does weight relate to acceleration for car models, small multiples by origin","['Origin', 'Acceleration', 'Model', 'Weight', 'null']",0,1,0,1,1,1,4,4,0,4,4,4,3,1
+129,Cars,Are there any American 5 cylinder cars?,"['Origin', 'Cylinders', 'null']",1,0,1,0,1,1,2,0,2,1,2,2,1,1
+241,Cars,plot horsepower by acceleration,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1
+259,Cars,how weight varies each year,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+174,Cars,"stacked bar of number of models by cylinders, colored by origin","['Origin', 'Cylinders', 'Model', 'null']",1,0,1,0,1,1,3,0,3,1,3,3,1,1
+164,Cars,"scatter plot of horsepower by acceleration, separated by individual models","['Horsepower', 'Acceleration', 'Model', 'null']",0,1,1,1,1,1,3,3,3,3,3,3,0,1
+226,Cars,Visualize the general trend of car model weights over the years,"['Model', 'Year', 'Weight', 'null']",3,1,1,1,0,1,3,3,3,3,2,3,1,2
+404,Cars,How does the acceleration of cars from different countries vary by the number of cylinders?,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+369,Cars,create a bar chart of average acceleration grouped by origin | split splots by cylinders,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+240,Cars,plot year by average weight,"['Weight', 'Year', 'null']",3,1,1,1,0,1,2,2,2,2,0,2,1,0
+390,Cars,Bar chart of average acceleration for cars with each number of cylinders in each place of origin. Color by origin. Separate into multiple charts by number of cylinders.,"['Origin', 'Cylinders', 'Acceleration', 'null']",1,0,0,1,0,1,3,0,1,3,2,3,0,2
+211,Cars,Scatter plot to show horsepower on x-axis and Acceleration on y-axis,"['Horsepower', 'Acceleration', 'null']",0,1,1,1,1,1,2,2,2,2,2,2,0,1

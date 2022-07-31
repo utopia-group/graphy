@@ -1,0 +1,1 @@
+VISUALIZE BAR SELECT superstore.Region, SUM(superstore.Profit) FROM superstore GROUP BY superstore.Ship_Status

@@ -1,0 +1,1 @@
+filter(Age < 30.0),x(Name),plot(bar),y(Goals),field(Name),null(Goals),filter(Country = Spain),field(Goals),filter(Goals > 5.0)

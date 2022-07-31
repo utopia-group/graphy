@@ -1,0 +1,25 @@
+{
+		"$schema": "https://vega.github.io/schema/vega-lite/v3.json",
+		"data": {
+			"url": "datasets/superstore.csv"
+		},
+		"mark": {
+			"type": "bar",
+			"tooltip": null
+		},
+		"encoding": {
+			"x": {
+				"field": "State",
+				"type": "ordinal"
+			},
+			"y": {
+				"field": "Profit",
+				"aggregate": "mean",
+				"type": "quantitative",
+				"axis": {
+					"title": "AVG (Profit)"
+				}
+			}
+		},
+		"ignore_orientation": true
+	}

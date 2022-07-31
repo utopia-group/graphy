@@ -1,0 +1,1 @@
+mean(Worldwide_Gross),x(Genre),field(Genre),plot(bar),y(Worldwide_Gross),field(Worldwide_Gross)

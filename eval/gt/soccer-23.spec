@@ -1,0 +1,1 @@
+x(Name),plot(bar),filter(Country = France),y(Goals),field(Name),field(Goals)

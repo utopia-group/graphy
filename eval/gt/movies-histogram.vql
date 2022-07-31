@@ -1,0 +1,1 @@
+VISUALIZE BAR SELECT movies.Running_Time, COUNT(*) FROM movies GROUP BY movies.Running_Time

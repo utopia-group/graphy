@@ -1,0 +1,1 @@
+VISUALIZE BAR SELECT cars.Weight, count(*) from cars GROUP By cars.Weight

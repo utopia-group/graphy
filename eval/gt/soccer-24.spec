@@ -1,0 +1,1 @@
+x(Country),plot(bar),field(Country),mean(Salary),y(Salary),field(Salary)

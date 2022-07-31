@@ -1,0 +1,41 @@
+{
+		"$schema": "https://vega.github.io/schema/vega-lite/v3.json",
+		"data": {
+			"url": "datasets/cars.csv"
+		},
+		"mark": {
+			"type": "bar",
+			"tooltip": null
+		},
+		"encoding": {
+			"column": {
+				"field": "Cylinders",
+				"type": "ordinal"
+			},
+			"x": {
+				"field": "Origin",
+				"scale": {
+					"rangeStep": 15
+				},
+				"type": "nominal",
+				"axis": {
+					"title": "",
+					"labels": false,
+					"ticks": false
+				}
+			},
+			"y": {
+				"aggregate": "mean",
+				"field": "Acceleration",
+				"type": "quantitative",
+				"axis": {
+					"title": "AVG (Acceleration)",
+					"format": "~s"
+				}
+			},
+			"color": {
+				"field": "Origin",
+				"type": "nominal"
+			}
+		}
+	}

@@ -1,0 +1,1 @@
+VISUALIZE SCATTER SELECT superstore.Sales, superstore.Profit FROM superstore GROUP BY superstore.Region

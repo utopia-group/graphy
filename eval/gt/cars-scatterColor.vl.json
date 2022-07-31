@@ -1,0 +1,33 @@
+{
+		"$schema": "https://vega.github.io/schema/vega-lite/v3.json",
+		"data": {
+			"url": "datasets/cars.csv"
+		},
+		"mark": {
+			"type": "point",
+			"filled": true,
+			"opacity": 0.8,
+			"tooltip": null
+		},
+		"encoding": {
+			"x": {
+				"field": "Displacement",
+				"type": "quantitative",
+				"axis": {
+					"format": "~s"
+				}
+			},
+			"y": {
+				"field": "MPG",
+				"type": "quantitative",
+				"axis": {
+					"format": "~s"
+				}
+			},
+			"color": {
+				"field": "Origin",
+				"type": "nominal"
+			}
+		},
+		"ignore_orientation": true
+	}

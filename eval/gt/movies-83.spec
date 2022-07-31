@@ -1,0 +1,1 @@
+x(Genre),field(Genre),plot(bar),y(Worldwide_Gross),color(Content_Rating),field(Content_Rating),sum(Worldwide_Gross),field(Worldwide_Gross)

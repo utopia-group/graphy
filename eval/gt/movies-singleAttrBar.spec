@@ -1,0 +1,1 @@
+y(Creative_Type),plot(bar),x(Creative_Type),count(Creative_Type),field(Creative_Type)

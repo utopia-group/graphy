@@ -1,0 +1,1 @@
+x(Country),color(Salary),y(Position),field(Position),field(Country),filter(Foot = Right),field(Salary),null(Position),plot(rect),filter(Age > 30.0)

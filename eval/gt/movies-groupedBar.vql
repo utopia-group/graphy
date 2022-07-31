@@ -1,0 +1,1 @@
+VISUALIZE BAR SELECT movies.Creative_Type, AVG(movies.Production_Budget) FROM movies COLUMN BY movies.Content_Rating

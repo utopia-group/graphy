@@ -1,0 +1,1 @@
+y(A),field(A),plot(bar),mean(A),field(C),color(C),field(B),x(B)

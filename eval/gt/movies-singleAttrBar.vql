@@ -1,0 +1,1 @@
+VISUALIZE BAR SELECT movies.Creative_Type, COUNT(*) FROM movies GROUP BY movies.Creative_Type

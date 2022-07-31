@@ -1,0 +1,1 @@
+plot(line),x(Release_Year),mean(Production_Budget),field(Production_Budget),field(Release_Year),y(Production_Budget)

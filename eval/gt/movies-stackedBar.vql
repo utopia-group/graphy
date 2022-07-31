@@ -1,0 +1,1 @@
+VISUALIZE BAR SELECT movies.Major_Genres, SUM(movies.Worldwide_Gross) FROM movies GROUP BY movies.Content_Rating

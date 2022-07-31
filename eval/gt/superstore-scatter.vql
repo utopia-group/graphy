@@ -1,0 +1,1 @@
+VISUALIZE SCATTER SELECT superstore.Profit, superstore.Sales FROM superstore

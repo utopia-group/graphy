@@ -1,0 +1,1 @@
+field(Average Worldwide_Gross),mean(Worldwide_Gross),x(Average Worldwide_Gross),field(Genre),detail(Genre),plot(tick)
