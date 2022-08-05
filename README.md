@@ -12,7 +12,7 @@ Requirement: Python3 (version **3.6**), we suggest using the conda environment.
 -models.jar`, `stanford-parser.jar`
 3. To run draco-related baseline, please install clingo-cffi using the command `python3 -m pip install --user --upgrade --extra-index-url https://test.pypi.org/simple/ clingo-cffi`.
 4. To run `preprocess.py`, spacy english library is required using `python -m spacy download en_core_web_trf` (you need to first install spacy)
-5. To run the neural_parser, trained-models are required. We provided all the models in [TODO: link].
+5. To run the neural_parser, trained models are required. We provided all the models necessary to reproduce the evaluation here: https://drive.google.com/file/d/1UkbPoS-cueZ4J5MFMwAOaRje3woVNus_/view?usp=sharing. After downloading the zip file, just directly unzip the file and it should work. 
   
 If there are more installation necessary to run this package, please update `README` and `requirements.txt`.
 
