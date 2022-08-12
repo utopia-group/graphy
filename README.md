@@ -1,3 +1,5 @@
+![Graphy](logo.png)
+
 # Code artifact for Graphy
 
 This repository contains a snapshot of the source code for Graphy, a data visualization synthesis tool from natural language.
